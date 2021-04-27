@@ -182,23 +182,24 @@
 }
 
 .footer {
-    background-color: #325B32;
+    background-color: #7993A8;
     display: flex;
 }
 
 .logo {
-    width: 33%;
+    width: 65%;
     display: flex;
 }
 
 .contact {
     color: #fff;
-    text-align: center;
-    width: 33%;
+    /* text-align: center; */
+    width: 20%;
+    display: flex;
 }
 
 .qr {
     color: #fff;
     text-align: center;
-    width: 33%;
+    width: 13%;
 }
