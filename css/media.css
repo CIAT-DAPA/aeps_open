@@ -1,0 +1,42 @@
+.flex-content {
+    width: 100%;
+    display: flex;
+}
+
+.text-description {
+    width: 50%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    vertical-align: middle
+}
+
+.icon-description {
+    text-align: center;
+    width: 50%;
+}
+
+.background-media {
+    background-color: red;
+    width: 100%;
+    background-image: url("../assets/images/background_media.jpg");
+    /* background-color: #cccccc; */
+    background-size: 100% 100%;
+    /* Used if the image is unavailable */
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+
+.flex-content-eithy {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media-content {
+    text-align: center;
+    width: 50%;
+}
