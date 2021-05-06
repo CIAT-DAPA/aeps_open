@@ -1,3 +1,9 @@
+.row-test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .descrition-content {
     width: 100%;
     display: flex;
@@ -21,8 +27,32 @@
     vertical-align: middle
 }
 
-.awards-content {
+.flex-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.example {
+    text-align: center;
+    display: flex;
     width: 100%;
+    height: 300px;
+    background-color: red;
+    justify-content: center;
+}
+
+.example-within {
+    text-align: center;
+    display: flex;
+    width: 80%;
+    height: 300px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.awards-content {
+    width: 90%;
     text-align: center;
 }
 
@@ -124,4 +154,8 @@
 .cases-content {
     width: 100%;
     text-align: center;
+}
+
+.card-text {
+    text-align: justify !important;
 }
