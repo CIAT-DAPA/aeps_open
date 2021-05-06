@@ -1,6 +1,15 @@
+
+.row-test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .first-section {
     display: flex;
-}
+    width: 90%;
+    
+} 
 
 .text-first-section {
     width: 50%;
@@ -23,7 +32,7 @@
 }
 
 .list-services {
-    width: 100%;
+    width: 90%;
 }
 
 .item-service {
