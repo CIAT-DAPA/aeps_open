@@ -1,5 +1,54 @@
-{ 
-    "date": "Fecha", 
-    "save": "Salvar",
-    "cancel": "Cancelar" 
+{
+  "index": {
+    "navbar": [
+      "INICIO",
+      "HERRAMIENTAS",
+      "SERVICIOS",
+      "CASOS DE ÉXITO",
+      "MEDIA",
+      "ARTÍCULOS"
+    ],
+    "lever": {
+        "title": "TRANSFORMACIÓN DIGITAL PARA EL SISTEMA AGROALIMENTARIO",
+        "description": "De la Alianza Bioversity & CIAT, que ha desarrollado herramientas para mejorar los rendimientos y la toma de desciones de más de 100.000 agricultores a través del desarrollo de herramientas para colecta, análisis y divilgación de datos de manera oportuna, práctica y sitio-específica, con el objetivo de obtener información eficiente que permita identificar qué, donde, cuando y cómo se debe sembrar.",
+         "button": "Ver más"
+    },
+    "data_collection": {
+        "items":["RENDIMIENTO DEL CULTIVO", "INFORMACIÓN DE SUELOS", "INFORMACIÓN DE PRÁCTICAS AGRÍCOLAS", "INFORMACIÓN CLIMÁTICA"],
+        "description": "DERIVADOS DE ESTRATEGIAS MODERNAS PARA LA CAPTURA DE DATOS (TIC´s, IoT, PERCEPCIÓN REMOTA, ETC) Y ALIANZAS CON DATOS EXISTENTES."
+    },
+    "impact": ["Reducción en la brecha de rendimiento", "Mejores medios para la vida", "Empoderamiento de los socios", "Mayor capacidad adaptativa de los sistemas agrícolas al cambio climático"],
+    "footer": {
+        "contact_title": "CONTACTO",
+        "researcher": "Daniel Jimenez, PhD. Científico",
+        "qr_title": "Conoce más en:"
+    }
+  },
+  "tool": {
+    "title": "HERRAMIENTAS",
+    "description": "El equipo desarrolla constantemente herramientas Y plataformas de agricultura digital. Para saber más sobre cada UNO desliza hacia abajo."
+
+  },
+  "service": {
+    "title": "SERVICIOS",
+    "description": "Las actividades que realiza el equipo de tranformación digital se establecen como medios para llegar al progreso del sistema agroalimentario.",
+    "service_1": "Desarrollo en implementación de flujos de trabajo para limpieza y consolidación de información.",
+    "service_2": "Análitica de datos utilizando métodos estadísticos y de machine learning.",
+    "service_3": "Visualización de información usuarios finales (técnicos, productores, investigadores del sector agrícola).",
+    "service_4": "Capacitación en minería de datos aplicado a agricultura."
+  },
+  "success_cases": {
+    "title": "CASOS DE ÉXITO",
+    "awards_title": "PREMIOS INTERNACIONALES",
+    "description": "Con más de 10 años de experiencia en agricultura digital el equipo ha logrado destacar sus proyectos, ser reconocido por diversas entidades y ha generado un impacto en los diferentes territorios donde a llevado a cabo su labor.",
+    "category": ["Proyectos éxitosos", "Convenios", "Premios", "Publicaciones"]
+  },
+  "media" : {
+    "title": "CONTENIDO MULTIMEDIA",
+    "description": "A continuación podrá ver los webinars, videos, documentales y demas elementos multimedia que ha ido dejando el equipo en su recorrido."
+  },
+  "article": {
+    "title": "ARTÍCULOS",
+    "description": "Ha sido importante y enriquecedor el trabajo del equipo en el desarrollo de investiagciones publicadas en diversas revistas cientificas. Aqui abajo encontrará las publicaciones relizadas."
+  }
 }

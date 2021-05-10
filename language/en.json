@@ -1,5 +1,53 @@
-{ 
-    "date": "Date", 
-    "save": "Save",
-    "cancel": "Cancel" 
-}
+{
+    "index": {
+      "navbar": [
+        "HOME",
+        "TOOLS",
+        "SERVICES",
+        "SUCCESS CASES",
+        "MEDIA",
+        "ARTICLES"
+      ],
+      "lever": {
+        "title": "DIGITAL TRANSFORMATION FOR THE AGRI-FOOD SYSTEM",
+        "description": "From the Bioversity & CIAT Alliance, which has developed tools to improve the yields and decision-making of more than 100,000 farmers through the development of tools for the collection, analysis and dissemination of data in a timely, practical and site-specific manner, with The objective of obtaining efficient information that allows identifying what, where, when and how should be planted.",
+        "button": "See more"
+      },
+      "data_collection":{
+          "item": ["CROP YIELD", "SOIL INFORMATION", "AGRICULTURAL PRACTICES INFORMATION", "CLIMATE INFORMATION"],
+        "description": "DERIVED FROM MODERN STRATEGIES FOR DATA CAPTURE (ICT, IoT, REMOTE PERCEPTION, ETC) AND ALLIANCES WITH EXISTING DATA."
+    },
+    "impact": ["Reduction in performance gap", "Better means for life", "Partner empowerment", "Greater adaptive capacity of agricultural systems to climate change"],
+    "footer": {
+        "contact_title": "CONTACT",
+        "researcher": "Daniel Jimenez, PhD. Scientific",
+        "qr_title": "See more in:"
+    }
+    },
+    "tool": {
+      "title": "TOOLS",
+      "description": "The team is constantly developing digital farming tools AND platforms. To know more about each ONE scroll down." 
+    },
+    "service": {
+      "title": "SERVICES",
+      "description": "The activities carried out by the digital transformation team are established as means to achieve the progress of the agri-food system.",
+      "service_1": "Development in implementation of workflows for cleaning and consolidation of information.",
+      "service_2": "Data analysis using statistical and machine learning methods.",
+      "service_3": "Visualization of information end users (technicians, producers, researchers in the agricultural sector).",
+      "service_4": "Training in data mining applied to agriculture."
+    },
+    "success_cases": {
+      "title": "SUCCESS CASES",
+      "awards_title": "INTERNATIONAL AWARDS",
+      "description": "With more than 10 years of experience in digital agriculture, the team has managed to highlight its projects, be recognized by various entities and has generated an impact in the different territories where it has carried out its work.",
+      "category": ["Successful projects", "Conventions", "Awards", "Publications"]
+    },
+    "media" : {
+      "title": "MEDIA CONTENT",
+      "description": "Then you will be able to see the webinars, videos, documentaries and other multimedia elements that the team has left on its journey."
+    },
+    "article": {
+      "title": "ARTICLES",
+      "description": "The team's work in the development of research published in various scientific journals has been important and enriching. Here below you will find the publications made."
+    }
+  }

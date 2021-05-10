@@ -23,7 +23,7 @@
     border-top-left-radius: 70%;
     border-bottom-left-radius: 70%;
     display: flex;
-    text-align: center;
+    text-align: right;
     justify-content: center;
     align-content: center;
     flex-direction: column;

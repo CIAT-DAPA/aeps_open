@@ -88,15 +88,16 @@
 .row-test {
   width: 100%;
   /* height: 400px; */
-  display: flex;
+  display: block;
   justify-content: center;
   text-align: center;
   align-content: center;
+  flex-wrap: nowrap;
 }
 
 .tool-content {
   width: 70%;
-  /* height: 400px; */
+  height: 400px;
   /* background-color: #1d6cdb; */
   display: flex;
   border-radius: 20%;

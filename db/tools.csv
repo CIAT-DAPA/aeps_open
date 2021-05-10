@@ -1,10 +1,10 @@
-#,name,description,image,repository_link,version,date,Link adiconal
-1,AEPS 2.0,"herramientas de cÛdigo abierto que ayudan a las organizaciones a recopilar, almacenar, analizar y visualizar informaciÛn sobre eventos productivos de cultivos",,https://aeps-platform-docs.readthedocs.io/en/latest/index.html,,,
-2,CLUSTERING_PATRONES_CLIMA,"An·lisis y agrupaciÛn de series de tiempo clim·ticas multivariadas para cultivos de ciclo corto, utilizando la distiancia dtw.",,https://github.com/CIAT-DAPA/aeps_CLUSTERING_PATRONES_CLIMA,,10-Nov-16,https://rpubs.com/hdorado/228010
+#,name,description,image,repository_link,version,date,Link adiconal,
+1,AEPS 2.0,"herramientas de c√≥digo abierto que ayudan a las organizaciones a recopilar, almacenar, analizar y visualizar informaci√≥n sobre eventos productivos de cultivos",,https://aeps-platform-docs.readthedocs.io/en/latest/index.html,,,
+2,CLUSTERING_PATRONES_CLIMA,"An√°lisis y agrupaci√≥n de series de tiempo clim√°ticas multivariadas para cultivos de ciclo corto, utilizando la distiancia dtw.",,https://github.com/CIAT-DAPA/aeps_CLUSTERING_PATRONES_CLIMA,,10-Nov-16,https://rpubs.com/hdorado/228010
 3,Feature selection for learning models,"An example for maiz, in the locality of Chiapas",,https://github.com/CIAT-DAPA/aeps_Enhanced_feature_selection_Cimmyt_2018,,dec 12 2018,
-4,Gee-weather,Disponer de series histÛricas de clima ayuda a explicar el desempeÒo productivo de los cultivos,,https://github.com/CIAT-DAPA/aeps_gee_NOAA,,feb 5 2021,
-5,Indicadores-climaticos,Generar indicadores clim·ticos para eventos de cosecha,,https://github.com/CIAT-DAPA/aeps_Indicadores-climaticos,,oct 11 2018,
-6,Propiedades inferidas del RASTA,"†permite el c·lculo de las propiedades inferidas del†rasta, incluidas en una de las secciones de este manual",,,,Abr 6 2017,mailto:h.a.dorado@cgiar.org https://cgspace.cgiar.org/handle/10568/69682
+4,Gee-weather,Disponer de series hist√≥ricas de clima ayuda a explicar el desempe√±o productivo de los cultivos,,https://github.com/CIAT-DAPA/aeps_gee_NOAA,,feb 5 2021,
+5,Indicadores-climaticos,Generar indicadores clim√°ticos para eventos de cosecha,,https://github.com/CIAT-DAPA/aeps_Indicadores-climaticos,,oct 11 2018,
+6,Propiedades inferidas del RASTA,"permite el c√°lculo de las propiedades inferidas del rasta, incluidas en una de las secciones de este manual",,,,Abr 6 2017,mailto:h.a.dorado@cgiar.org https://cgspace.cgiar.org/handle/10568/69682
 7,aeps_platform_api_auth,,,https://github.com/CIAT-DAPA/aeps_platform_api_auth,,oct 13 2020,
 8,platform_crop_satellite-based_monitoring,,,https://github.com/CIAT-DAPA/aeps_platform_crop_satellite-based_monitoring,,oct 13 2020,
 9,platform_docker,,,https://github.com/CIAT-DAPA/aeps_platform_docker,,jul 20 2020,
@@ -15,8 +15,8 @@
 14,Regression-Methods-AEPS,,,https://github.com/CIAT-DAPA/aeps_Regression-Methods-AEPS,,oct 11 2018,
 15,Sigatoka,,,https://github.com/CIAT-DAPA/aeps_Sigatoka,,dec 11 2018,
 16,tnc_honduras,This is a example of RASTER,,https://github.com/CIAT-DAPA/aeps_tnc_honduras,,mar 16 2018,
-17,verificacion-de-coordenadas,RevisiÛn y depuraciÛn de coordenadas,,https://github.com/CIAT-DAPA/aeps_Verificacion-de-coordenadas,,oct 11 2018,
-18,Vinculacion_estaciones_lotes,Se pretende asociar series de datos clim·ticos a periodos de cosecha de cultivos que van desde siembra a recolecciÛn. La salida ser· un archivo .RDATA.,,https://github.com/CIAT-DAPA/aeps_Vinculacion_estaciones_lotes,,MAR 28 2017,
-19,sensoresbovinos,Manual para el manejo de datos de sensores de movimiento y de temperatura timp·nica en bovinos,,https://github.com/CIAT-DAPA/sensoresbovinos,,FEB 7 2021,
-20,Taller MinerÌa de datos en Agricultura Lima 2019,"conceptos b·sicos de agricultura, introducciÛn a R y an·lisis exploratorio Y procesamientos de datos en agricultura.",,https://github.com/CIAT-DAPA/Taller_Lima_2019,,FEB 16 021,
+17,verificacion-de-coordenadas,Revisi√≥n y depuraci√≥n de coordenadas,,https://github.com/CIAT-DAPA/aeps_Verificacion-de-coordenadas,,oct 11 2018,
+18,Vinculacion_estaciones_lotes,Se pretende asociar series de datos clim√°ticos a periodos de cosecha de cultivos que van desde siembra a recolecci√≥n. La salida ser√° un archivo .RDATA.,,https://github.com/CIAT-DAPA/aeps_Vinculacion_estaciones_lotes,,MAR 28 2017,
+19,sensoresbovinos,Manual para el manejo de datos de sensores de movimiento y de temperatura timp√≥nica en bovinos,,https://github.com/CIAT-DAPA/sensoresbovinos,,FEB 7 2021,
+20,Taller Miner√≠a de datos en Agricultura Lima 2019,"conceptos b√°sicos de agricultura, introducci√≥n a R y an√°lisis exploratorio Y procesamientos de datos en agricultura.",,https://github.com/CIAT-DAPA/Taller_Lima_2019,,FEB 16 021,
 21,usaid_coffee,,,https://github.com/CIAT-DAPA/usaid_coffee,,sep 29 2017,

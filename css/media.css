@@ -13,13 +13,16 @@
     vertical-align: middle
 }
 
+.text-description h1 {
+    font-weight: bold;
+}
+
 .icon-description {
     text-align: center;
     width: 50%;
 }
 
 .background-media {
-    background-color: red;
     width: 100%;
     background-image: url("../assets/images/background_media.jpg");
     /* background-color: #cccccc; */

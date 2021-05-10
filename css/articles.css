@@ -1,0 +1,26 @@
+.flex-content {
+  display: flex;
+  width: 100%;
+}
+
+.middle-section {
+  width: 50%;
+}
+
+.vertical-center {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.vertical-center h1 {
+    font-weight: bold;
+}
+
+.horizontal-center {
+  text-align: center;
+}
