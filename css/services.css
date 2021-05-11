@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .first-section {
@@ -20,6 +21,7 @@
     align-content: center;
     flex-direction: column;
     vertical-align: middle
+    
 }
 
 .text-first-section h1 {
@@ -38,6 +40,7 @@
 .item-service {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .number {
