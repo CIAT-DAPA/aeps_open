@@ -24,8 +24,8 @@
 
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      style="background-color: #fff"
+      class="navbar sticky-top nav-shadow navbar-expand-lg navbar-light bg-light"
+      style="background-color: #fff; height: 150px;"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"
@@ -79,41 +79,35 @@
                   class="nav-link active"
                   aria-current="page"
                   href="./index.html"
-                  >INICIO</a
+                  ></a
                 >
               </li>
               <li id="tool" class="nav-item ml-4">
-                <a class="nav-link" href="./tools.html">HERRAMIENTAS</a>
+                <a class="nav-link" href="./tools.html"></a>
               </li>
               <li id="service" class="nav-item ml-4">
-                <a class="nav-link" href="./services.html">SERVICIOS</a>
+                <a class="nav-link" href="./services.html"></a>
               </li>
               <li id="success" class="nav-item ml-4">
                 <a class="nav-link" href="./success-cases.html"
-                  >CASOS DE ÉXITO</a
+                  ></a
                 >
               </li>
               <li id="media" class="nav-item ml-4">
-                <a class="nav-link" href="./media.html">MEDIA</a>
+                <a class="nav-link" href="./media.html"></a>
               </li>
               <li id="article" class="nav-item ml-4">
-                <a class="nav-link" href="./articles.html">ARTÍCULOS</a>
+                <a class="nav-link" href="./articles.html"></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <img
-      src="./assets/images/alliance-bar.png"
-      alt=""
-      width="100%"
-      height="10"
-      class="d-inline-block align-text-top"
-    />
+
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide mt-1"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
@@ -223,7 +217,11 @@
       <!-- Section three -->
       <div class="row">
         <div class="three-seq col sm-12">
-          <div class="three-seq-left"></div>
+          <div class="three-seq-left">
+            <h3 id="data-collection-title-1">LA RECOPILACIÓN DE</h3>
+            <h1 id="data-collection-title-2"><strong>DATOS</strong></h1>
+            <h3 id="data-collection-title-3">DE</h3>
+          </div>
           <div class="three-seq-right">
             <div class="three-seq-right-up">
               <div class="q-one mt-5">
@@ -278,7 +276,7 @@
       <div class="row mb-3">
         <div class="impact-seq col sm-12">
           <div class="title-seq">
-            <h1>IMPACTO</h1>
+            <h1 id="impact-title">IMPACTO</h1>
           </div>
           <div class="impact-examples">
             <div class="impact-one">
@@ -437,7 +435,7 @@
             /* Navbar */
             document.getElementById("homes").innerHTML =
               "<li id='homes' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./index.html'>" +language.index.navbar[0]+"</a></li>";
+                "<a class='nav-link active' href='./index.html'>" +language.index.navbar[0]+"</a></li>";
                 document.getElementById("tool").innerHTML =
               "<li id='tool' class='nav-item ml-3'>" +
                 "<a class='nav-link' href='./tools.html'>" + language.index.navbar[1] +"</a></li>";
@@ -468,16 +466,20 @@
               "<p id='lever'>"+ language.index.lever.description + "</p>"
               document.getElementById("button-lever").innerHTML = language.index.lever.button;
               /* Data collection */
+              document.getElementById("data-collection-title-1").innerHTML = language.index.data_collection.title[0];
+              document.getElementById("data-collection-title-2").innerHTML = language.index.data_collection.title[1];
+              document.getElementById("data-collection-title-3").innerHTML = language.index.data_collection.title[2];
               document.getElementById("data-collection-1").innerHTML = language.index.data_collection.item[0];
               document.getElementById("data-collection-2").innerHTML = language.index.data_collection.item[1];
               document.getElementById("data-collection-3").innerHTML = language.index.data_collection.item[2];
               document.getElementById("data-collection-4").innerHTML = language.index.data_collection.item[3];
               document.getElementById("data-collection-description").innerHTML = language.index.data_collection.description;
               /* Impact */
-              document.getElementById("impact-1").innerHTML = language.index.impact[0];
-              document.getElementById("impact-2").innerHTML = language.index.impact[1];
-              document.getElementById("impact-3").innerHTML = language.index.impact[2];
-              document.getElementById("impact-4").innerHTML = language.index.impact[3];
+              document.getElementById("impact-title").innerHTML = language.index.impact.title;
+              document.getElementById("impact-1").innerHTML = language.index.impact.item[0];
+              document.getElementById("impact-2").innerHTML = language.index.impact.item[1];
+              document.getElementById("impact-3").innerHTML = language.index.impact.item[2];
+              document.getElementById("impact-4").innerHTML = language.index.impact.item[3];
               /* Footer */
               document.getElementById("footer-contact-title").innerHTML = language.index.footer.contact_title;
               document.getElementById("footer-researcher").innerHTML = language.index.footer.researcher;

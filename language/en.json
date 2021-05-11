@@ -14,10 +14,13 @@
         "button": "See more"
       },
       "data_collection":{
+        "title": ["THE COLLECTION OF", "DATA", "OF"],
           "item": ["CROP YIELD", "SOIL INFORMATION", "AGRICULTURAL PRACTICES INFORMATION", "CLIMATE INFORMATION"],
         "description": "DERIVED FROM MODERN STRATEGIES FOR DATA CAPTURE (ICT, IoT, REMOTE PERCEPTION, ETC) AND ALLIANCES WITH EXISTING DATA."
     },
-    "impact": ["Reduction in performance gap", "Better means for life", "Partner empowerment", "Greater adaptive capacity of agricultural systems to climate change"],
+    "impact": {
+      "title": "IMPACT",
+      "item":["Reduction in performance gap", "Better means for life", "Partner empowerment", "Greater adaptive capacity of agricultural systems to climate change"]},
     "footer": {
         "contact_title": "CONTACT",
         "researcher": "Daniel Jimenez, PhD. Scientific",

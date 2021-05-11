@@ -25,7 +25,7 @@
 
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
+      class="navbar sticky-top nav-shadow navbar-expand-lg navbar-light bg-light"
       style="background-color: #fff"
     >
       <div class="container-fluid">
@@ -80,46 +80,39 @@
                   class="nav-link active"
                   aria-current="page"
                   href="./index.html"
-                  >INICIO</a
+                  ></a
                 >
               </li>
               <li id="tool" class="nav-item ml-4">
-                <a class="nav-link" href="./tools.html">HERRAMIENTAS</a>
+                <a class="nav-link" href="./tools.html"></a>
               </li>
               <li id="service" class="nav-item ml-4">
-                <a class="nav-link" href="./services.html">SERVICIOS</a>
+                <a class="nav-link" href="./services.html"></a>
               </li>
               <li id="success" class="nav-item ml-4">
                 <a class="nav-link" href="./success-cases.html"
-                  >CASOS DE ÉXITO</a
+                  ></a
                 >
               </li>
               <li id="media" class="nav-item ml-4">
-                <a class="nav-link" href="./media.html">MEDIA</a>
+                <a class="nav-link" href="./media.html"></a>
               </li>
               <li id="article" class="nav-item ml-4">
-                <a class="nav-link" href="./articles.html">ARTÍCULOS</a>
+                <a class="nav-link" href="./articles.html"></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <img
-      src="./assets/images/alliance-bar.png"
-      alt=""
-      width="100%"
-      height="10"
-      class="d-inline-block align-text-top"
-    />
     <!-- Content -->
-    <div class="container">
-      <div class="row">
+    <div class="container mt-3">
+      <div class="row mt-4">
         <div class="flex-content col-sm-12">
           <div class="middle-section vertical-center">
             <h1 id="article-title"><!-- ARTÍCULOS --></h1>
             <p id="article-description">
-             <!--  Ha sido importante y enriquecedor el trabajo del equipo en el
+              <!--  Ha sido importante y enriquecedor el trabajo del equipo en el
               desarrollo de investiagciones publicadas en diversas revistas
               cientificas. Aqui abajo encontrará las publicaciones relizadas. -->
             </p>
@@ -134,7 +127,12 @@
           </div>
         </div>
       </div>
-      <hr>
+      <hr />
+      <div class="content-articles">
+        <div class="row-articles">
+
+        </div>
+      </div>
     </div>
     <div class="footer">
       <div class="logo">
@@ -187,6 +185,7 @@
     <script>
       var language;
       function getLanguage() {
+        getItems(localStorage.getItem("language"))
         localStorage.getItem("language") == null ? setLanguage("en") : false;
         $.ajax({
           url: "language/" + localStorage.getItem("language") + ".json",
@@ -223,7 +222,7 @@
               "</a></li>";
             document.getElementById("article").innerHTML =
               "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./articles.html'>" +
+              "<a class='nav-link active' href='./articles.html'>" +
               language.index.navbar[5] +
               "</a></li>";
               /* Content */
@@ -241,6 +240,46 @@
               language.index.footer.qr_title;
           },
         });
+      }
+      function getItems(lan) {
+        $(document).ready(function () {
+          $.ajax({
+            type: "GET",
+            url: "db/article.csv",
+            dataType: "text",
+            success: function (data) {
+              articles = processData(data);
+              $(".row-articles").html("");
+                $(articles).each(function (i, e) {
+                  $(".row-articles").append(
+                    '<h1>'+ articles[i].fecha +'</h1>' +
+                    '<a href="'+articles[i].link+'" target="_blank"><img width="700px" style="border-style: solid; border-color: gray;" class="mt-2" src="./assets/images/'+articles[i].image+'.PNG" alt=""></a>' +
+                    '<hr>'
+                  );
+                });
+            },
+          });
+        });
+      }
+
+      function processData(allText) {
+        var allTextLines = allText.split(/\r\n|\n/);
+        var entries = allTextLines[0].split(";");
+        var lines = [];
+        var record_num = 8; // or however many elements there are in each row
+
+        var headings = entries.splice(0, 4);
+        var tarr = [];
+
+        for (let i = 1; i < allTextLines.length; i++) {
+          var obj = {};
+          var currentline = allTextLines[i].split(";");
+          for (var j = 0; j < headings.length; j++) {
+            obj[headings[j]] = currentline[j];
+          }
+          lines.push(obj);
+        }
+        return lines;
       }
 
       function setLanguage(lang) {

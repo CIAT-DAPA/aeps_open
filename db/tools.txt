@@ -1,22 +1,21 @@
-Ôªø#|name|description|image|repository_link|version|date|Link adiconal
-1|AEPS 2.0|herramientas de c√≥digo abierto que ayudan a las organizaciones a recopilar, almacenar, analizar y visualizar informaci√≥n sobre eventos productivos de cultivos||https://aeps-platform-docs.readthedocs.io/en/latest/index.html|||
-2|CLUSTERING_PATRONES_CLIMA|An√°lisis y agrupaci√≥n de series de tiempo clim√°ticas multivariadas para cultivos de ciclo corto, utilizando la distiancia dtw.||https://github.com/CIAT-DAPA/aeps_CLUSTERING_PATRONES_CLIMA||10-Nov-16|https://rpubs.com/hdorado/228010
-3|Feature selection for learning models|An example for maiz, in the locality of Chiapas||https://github.com/CIAT-DAPA/aeps_Enhanced_feature_selection_Cimmyt_2018||dec 12 2018|
-4|Gee-weather|Disponer de series hist√≥ricas de clima ayuda a explicar el desempe√±o productivo de los cultivos||https://github.com/CIAT-DAPA/aeps_gee_NOAA||feb 5 2021|
-5|Indicadores-climaticos|Generar indicadores clim√°ticos para eventos de cosecha||https://github.com/CIAT-DAPA/aeps_Indicadores-climaticos||oct 11 2018|
-6|Propiedades inferidas del RASTA|permite el c√°lculo de las propiedades inferidas del rasta, incluidas en una de las secciones de este manual||||Abr 6 2017|mailto:h.a.dorado@cgiar.org https://cgspace.cgiar.org/handle/10568/69682
-7|aeps_platform_api_auth|||https://github.com/CIAT-DAPA/aeps_platform_api_auth||oct 13 2020|
-8|platform_crop_satellite-based_monitoring|||https://github.com/CIAT-DAPA/aeps_platform_crop_satellite-based_monitoring||oct 13 2020|
-9|platform_docker|||https://github.com/CIAT-DAPA/aeps_platform_docker||jul 20 2020|
-10|platform_docs|||https://github.com/CIAT-DAPA/aeps_platform_docs||feb 3 2020|
-11|platform_forms|||https://github.com/CIAT-DAPA/aeps_platform_forms||jul 3 2020|
-12|platform_visualizations|||https://github.com/CIAT-DAPA/aeps_platform_visualizations||feb 5 2020|
-13|project-aeps|||https://github.com/CIAT-DAPA/aeps_project-aeps||nov 8 2017|
-14|Regression-Methods-AEPS|||https://github.com/CIAT-DAPA/aeps_Regression-Methods-AEPS||oct 11 2018|
-15|Sigatoka|||https://github.com/CIAT-DAPA/aeps_Sigatoka||dec 11 2018|
-16|tnc_honduras|This is a example of RASTER||https://github.com/CIAT-DAPA/aeps_tnc_honduras||mar 16 2018|
-17|verificacion-de-coordenadas|Revisi√≥n y depuraci√≥n de coordenadas||https://github.com/CIAT-DAPA/aeps_Verificacion-de-coordenadas||oct 11 2018|
-18|Vinculacion_estaciones_lotes|Se pretende asociar series de datos clim√°ticos a periodos de cosecha de cultivos que van desde siembra a recolecci√≥n. La salida ser√° un archivo .RDATA.||https://github.com/CIAT-DAPA/aeps_Vinculacion_estaciones_lotes||MAR 28 2017|
-19|sensoresbovinos|Manual para el manejo de datos de sensores de movimiento y de temperatura timp√≥nica en bovinos||https://github.com/CIAT-DAPA/sensoresbovinos||FEB 7 2021|
-20|Taller Miner√≠a de datos en Agricultura Lima 2019|conceptos b√°sicos de agricultura, introducci√≥n a R y an√°lisis exploratorio Y procesamientos de datos en agricultura.||https://github.com/CIAT-DAPA/Taller_Lima_2019||FEB 16 021|
-21|usaid_coffee|||https://github.com/CIAT-DAPA/usaid_coffee||sep 29 2017|
+#	title_es	title_en	description_es	description_en	image	repository_link	version	date	Link adiconal
+1	AEPS 2.0	AEPS 2.0	herramientas de cÛdigo abierto que ayudan a las organizaciones a recopilar, almacenar, analizar y visualizar informaciÛn sobre eventos productivos de cultivos	open source tools that help organizations collect, store, analyze and visualize information on crop production events		https://aeps-platform-docs.readthedocs.io/en/latest/index.html			
+2	CLUSTERING PATRONES CLIMA	CLUSTERING CLIMATE PATTERNS	An·lisis y agrupaciÛn de series de tiempo clim·ticas multivariadas para cultivos de ciclo corto, utilizando la distiancia dtw.	Analysis and grouping of multivariate climatic time series for short cycle crops, using the distance dtw.		https://github.com/CIAT-DAPA/aeps_CLUSTERING_PATRONES_CLIMA		10-Nov-16	https://rpubs.com/hdorado/228010
+3	SELECCI”N PARA MODELOS DE APRENDIZAJE	FEATURE FOR LEARNING MODELS	Un ejemplo de maÌz para la localidad de Chiapas	An example for maiz, in the locality of Chiapas		https://github.com/CIAT-DAPA/aeps_Enhanced_feature_selection_Cimmyt_2018		dec 12 2018	
+4	GEE-WEATHER	GEE-WEATHER	Disponer de series histÛricas de clima ayuda a explicar el desempeÒo productivo de los cultivos	Having historical weather series helps to explain the productive performance of crops		https://github.com/CIAT-DAPA/aeps_gee_NOAA		feb 5 2021	
+5	INDICADORES CLIMATICOS	CLIMATE INDICATORS	Generar indicadores clim·ticos para eventos de cosecha	Generate climatic indicators for harvest events		https://github.com/CIAT-DAPA/aeps_Indicadores-climaticos		oct 11 2018	
+6	PROPIEDADES INFERIDAS RASTA	RASTA FEATURES	permite el c·lculo de las propiedades inferidas del rasta, incluidas en una de las secciones de este manual	allows the calculation of the inferred properties of the rasta, included in one of the sections of this manual				Abr 6 2017	mailto:h.a.dorado@cgiar.org https://cgspace.cgiar.org/handle/10568/69682
+7	AEPS PLATFORM AUTH	AEPS PLATFORM AUTH				https://github.com/CIAT-DAPA/aeps_platform_api_auth		oct 13 2020	
+8	MONITORIZACI”N DE CULTIVOS VIA SATELLITE	CROP MONITORING VIA SATELLITE				https://github.com/CIAT-DAPA/aeps_platform_crop_satellite-based_monitoring		oct 13 2020	
+9	PLATAFORMA DOCKER	DOCKER PLATFORM				https://github.com/CIAT-DAPA/aeps_platform_docker		jul 20 2020	
+10	DOCS PLATAFORMA	DOCS PLATFORMS				https://github.com/CIAT-DAPA/aeps_platform_docs		feb 3 2020	
+11	PLATAFORMA DE FORMULARIOS	FORMS PLATFORMS				https://github.com/CIAT-DAPA/aeps_platform_forms		jul 3 2020	
+12	PLATAFORMA DE VISUALIZACI”N	VISUALIZATION PLATFORMS				https://github.com/CIAT-DAPA/aeps_platform_visualizations		feb 5 2020	
+13	PROYECTO AEPS	AEPS PROJECT				https://github.com/CIAT-DAPA/aeps_project-aeps		nov 8 2017	
+14	M…TODOS DE REGRESI”N AEPS	REGRESSION METHODS AEPS				https://github.com/CIAT-DAPA/aeps_Regression-Methods-AEPS		oct 11 2018	
+15	SIGATOKA	SIGATOKA				https://github.com/CIAT-DAPA/aeps_Sigatoka		dec 11 2018	
+16	TNC HOND⁄RAS	TNC HONDURAS	Ejemplo de raster	Example de raster		https://github.com/CIAT-DAPA/aeps_tnc_honduras		mar 16 2018	
+17	VERIFICACI”N DE COORDENADAS	CHECKING OF COORDINATES	RevisiÛn y depuraciÛn de coordenadas	Coordinate review and debugging		https://github.com/CIAT-DAPA/aeps_Verificacion-de-coordenadas		oct 11 2018	
+18	VINCULACI”N ESTACIONES LOTES	LINKING STATIONS LOTS	Se pretende asociar series de datos clim·ticos a periodos de cosecha de cultivos que van desde siembra a recolecciÛn. La salida ser· un archivo .RDATA.	It is intended to associate series of climatic data with harvest periods of crops that go from sowing to harvesting. The output will be a .RDATA file.		https://github.com/CIAT-DAPA/aeps_Vinculacion_estaciones_lotes		MAR 28 2017	
+19	SENSORES BOBINOS	BOVINE SENSORS	Manual para el manejo de datos de sensores de movimiento y de temperatura timpÛnica en bovinos	Manual for handling data from motion sensors and tympanic temperature in cattle		https://github.com/CIAT-DAPA/sensoresbovinos		FEB 7 2021	
+20	Taller MinerÌa de datos en Agricultura Lima 2019	Data Mining in Agriculture Workshop Lima 2019	conceptos b·sicos de agricultura, introducciÛn a R y an·lisis exploratorio Y procesamientos de datos en agricultura.	basic concepts of agriculture, introduction to R and exploratory analysis AND data processing in agriculture.		https://github.com/CIAT-DAPA/Taller_Lima_2019		FEB 16 021	

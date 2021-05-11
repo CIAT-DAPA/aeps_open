@@ -14,10 +14,13 @@
          "button": "Ver más"
     },
     "data_collection": {
-        "items":["RENDIMIENTO DEL CULTIVO", "INFORMACIÓN DE SUELOS", "INFORMACIÓN DE PRÁCTICAS AGRÍCOLAS", "INFORMACIÓN CLIMÁTICA"],
+      "title": ["LA RECOPILACIÓN DE", "DATOS", "DE"],
+        "item":["RENDIMIENTO DEL CULTIVO", "INFORMACIÓN DE SUELOS", "INFORMACIÓN DE PRÁCTICAS AGRÍCOLAS", "INFORMACIÓN CLIMÁTICA"],
         "description": "DERIVADOS DE ESTRATEGIAS MODERNAS PARA LA CAPTURA DE DATOS (TIC´s, IoT, PERCEPCIÓN REMOTA, ETC) Y ALIANZAS CON DATOS EXISTENTES."
     },
-    "impact": ["Reducción en la brecha de rendimiento", "Mejores medios para la vida", "Empoderamiento de los socios", "Mayor capacidad adaptativa de los sistemas agrícolas al cambio climático"],
+    "impact": {
+      "title": "IMPACTO",
+      "item": ["Reducción en la brecha de rendimiento", "Mejores medios para la vida", "Empoderamiento de los socios", "Mayor capacidad adaptativa de los sistemas agrícolas al cambio climático"]},
     "footer": {
         "contact_title": "CONTACTO",
         "researcher": "Daniel Jimenez, PhD. Científico",
