@@ -237,3 +237,8 @@
   border-image: url(../assets/images/alliance-bar.png) 30 round;
   height: 150px;
 }
+
+.contact a {
+  text-decoration: none !important;
+  color: #fff;
+}
