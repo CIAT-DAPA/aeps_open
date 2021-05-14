@@ -247,6 +247,7 @@
             if (lan == "es") {
 
               $(tools).each(function (i, e) {
+                if (tools[i].text_es) {
                 $(".row-test").append(
                 '<a href="' +
                 tools[i].repository_link +
@@ -254,26 +255,27 @@
                   'target="_blank" class="url mt-2">' +
                   '<div class="tool-content tool-detail-1">' +
                     '<div class="title-tool tool-detail-1 card-tool">' +
-                  '<h5 class="mt-2">Herramienta</h5>' +
+                  '<h5 class="mt-2">'+tools[i].type_es+'</h5>' +
                   "<h3>" +
                   tools[i].title_es +
                   "</h3>" +
                   '<p class="mt-2">' +
                   tools[i].description_es +
                   "</p>" +
-                  '<img src="./assets/images/tool_' +
-                  i +
+                  '<img src="./assets/images/tool_'+i+
                   '.png" alt="" width="100px" height="100px" class="mb-2"/>' +
                   "</div>" +
                   '<div class="summary-tool tool-opacity-1">' +
-                    "<p>Text</p>" +
+                    "<p class='mb-2'>"+tools[i].text_es+"</p>" +
                     "</div>" +
                     "</div>" +
                     "</a>"
                     );
+                }
                   });
                 } if (lan == "en") {
                   $(tools).each(function (i, e) {
+                    if (tools[i].text_en) {
                 $(".row-test").append(
                 '<a href="' +
                 tools[i].repository_link +
@@ -281,7 +283,7 @@
                   'target="_blank" class="url mt-2">' +
                   '<div class="tool-content tool-detail-1">' +
                     '<div class="title-tool tool-detail-1 card-tool">' +
-                  '<h5 class="mt-2">Tool</h5>' +
+                  '<h5 class="mt-2">'+tools[i].type_en+'</h5>' +
                   "<h3>" +
                   tools[i].title_en +
                   "</h3>" +
@@ -293,11 +295,12 @@
                   '.png" alt="" width="100px" height="100px" class="mb-2"/>' +
                   "</div>" +
                   '<div class="summary-tool tool-opacity-1">' +
-                    "<p>Text</p>" +
+                    "<p>"+tools[i].text_en+"</p>" +
                     "</div>" +
                     "</div>" +
                     "</a>"
                     );
+                    }
                   });
                 }
                 },
