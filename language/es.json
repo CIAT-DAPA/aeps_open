@@ -10,7 +10,7 @@
     ],
     "lever": {
         "title": "TRANSFORMACIÓN DIGITAL PARA EL SISTEMA AGROALIMENTARIO",
-        "description": "De la Alianza Bioversity & CIAT, que ha desarrollado herramientas para mejorar los rendimientos y la toma de desciones de más de 100.000 agricultores a través del desarrollo de herramientas para colecta, análisis y divilgación de datos de manera oportuna, práctica y sitio-específica, con el objetivo de obtener información eficiente que permita identificar qué, donde, cuando y cómo se debe sembrar.",
+        "description": "La Alianza Bioversity & CIAT, ha desarrollado herramientas para mejorar los rendimientos y la toma de decisiones de más de 100.000 agricultores a través del desarrollo de herramientas para colecta, análisis de datos y divulgación de información  de manera oportuna, práctica y sitio-específica, con el objetivo de facilitar la toma de decisiones por parte de productores y técnicos sobre qué, donde, cuándo y que prácticas agronómicas aplicar para obtener una producción sotenible y adaptada al clima.",
          "button": "Ver más"
     },
     "data_collection": {
@@ -38,7 +38,8 @@
     "service_1": "Desarrollo en implementación de flujos de trabajo para limpieza y consolidación de información.",
     "service_2": "Análitica de datos utilizando métodos estadísticos y de machine learning.",
     "service_3": "Visualización de información usuarios finales (técnicos, productores, investigadores del sector agrícola).",
-    "service_4": "Capacitación en minería de datos aplicado a agricultura."
+    "service_4": "Capacitación en minería de datos aplicado a agricultura.",
+    "service_5": "Captura de datos."
   },
   "success_cases": {
     "title": "CASOS DE ÉXITO",

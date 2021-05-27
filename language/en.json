@@ -10,7 +10,7 @@
       ],
       "lever": {
         "title": "DIGITAL TRANSFORMATION FOR THE AGRI-FOOD SYSTEM",
-        "description": "From the Bioversity & CIAT Alliance, which has developed tools to improve the yields and decision-making of more than 100,000 farmers through the development of tools for the collection, analysis and dissemination of data in a timely, practical and site-specific manner, with The objective of obtaining efficient information that allows identifying what, where, when and how should be planted.",
+        "description": "The Bioversity & CIAT Alliance has developed tools to improve the yields and decision-making of more than 100,000 farmers through the development of tools for the collection, analysis of data and dissemination of information in a timely, practical and site-specific manner, with The objective of facilitating decision-making by producers and technicians on what, where, when and which agronomic practices to apply to obtain a sustainable production adapted to the climate.",
         "button": "See more"
       },
       "data_collection":{
@@ -37,7 +37,8 @@
       "service_1": "Development in implementation of workflows for cleaning and consolidation of information.",
       "service_2": "Data analysis using statistical and machine learning methods.",
       "service_3": "Visualization of information end users (technicians, producers, researchers in the agricultural sector).",
-      "service_4": "Training in data mining applied to agriculture."
+      "service_4": "Training in data mining applied to agriculture.",
+      "service_5": "Data capture"
     },
     "success_cases": {
       "title": "SUCCESS CASES",
