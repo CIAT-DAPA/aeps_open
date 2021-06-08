@@ -352,7 +352,7 @@
         $(document).ready(function () {
           $.ajax({
             type: "GET",
-            url: "db/casos.txt",
+            url: "db/casos.csv",
             dataType: "text",
             success: function (data) {
               cases = processData(data);
@@ -365,7 +365,7 @@
                       '<a href="' +
                       cases[i].link +
                       '" class="url" target="_blank">' +
-                      '<div class="card text-white mb-3" style="max-width: 23rem; height: 460px; background-color:' +
+                      '<div class="card text-white mb-3" style="max-width: 23rem; height: 500px; background-color:' +
                       cases[i].color +
                       ';">' +
                       '<div class="card-header">' +
