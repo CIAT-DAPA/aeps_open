@@ -24,22 +24,23 @@
 
 .background-media {
     width: 100%;
-    background-image: url("../assets/images/background_media.jpg");
+    /* background-image: url("../assets/images/background_media.jpg"); */
     /* background-color: #cccccc; */
     background-size: 100% 100%;
     /* Used if the image is unavailable */
-    height: 600px;
+    /* height: 600px; */
     background-repeat: no-repeat;
 
 }
 
 .flex-content-eithy {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .media-content {
     text-align: center;
-    width: 50%;
+    width: 80%;
 }

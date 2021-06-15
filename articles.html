@@ -245,15 +245,15 @@
         $(document).ready(function () {
           $.ajax({
             type: "GET",
-            url: "db/article.csv",
+            url: "db/articles.csv",
             dataType: "text",
             success: function (data) {
               articles = processData(data);
               $(".row-articles").html("");
                 $(articles).each(function (i, e) {
                   $(".row-articles").append(
-                    '<h1>'+ articles[i].fecha +'</h1>' +
-                    '<a href="'+articles[i].link+'" target="_blank"><img width="700px" style="border-style: solid; border-color: gray;" class="mt-2" src="./assets/images/'+articles[i].image+'.PNG" alt=""></a>' +
+                    '<h1>'+ articles[i].fecha+'</h1>' +
+                    '<a href="'+articles[i].link+'" target="_blank"><img width="700px" style="border-style: solid; border-color: gray;" class="mt-2" src="./assets/images/Article_'+i+'.PNG" alt=""></a>' +
                     '<hr>'
                   );
                 });
@@ -268,7 +268,7 @@
         var lines = [];
         var record_num = 8; // or however many elements there are in each row
 
-        var headings = entries.splice(0, 4);
+        var headings = entries.splice(0, 5);
         var tarr = [];
 
         for (let i = 1; i < allTextLines.length; i++) {

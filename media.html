@@ -124,7 +124,9 @@
       <!-- Content -->
       <div class="row">
         <div class="background-media mb-4">
-          <div class="flex-content-eithy"></div>
+          <div class="flex-content-eithy">
+
+          </div>
         </div>
       </div>
     </div>
@@ -238,7 +240,7 @@
         $(document).ready(function () {
           $.ajax({
             type: "GET",
-            url: "db/media.csv",
+            url: "db/medias.csv",
             dataType: "text",
             success: function (data) {
               mediaContent = processData(data);
@@ -246,7 +248,7 @@
               if (lan == "es") {
                 $(mediaContent).each(function (i, e) {
                   $(".flex-content-eithy").append(
-                    '<div class="media-content mt-1"><h5>' +
+                    '<div class="media-content mt-4"><h5>' +
                       mediaContent[i].title_es + "</h5>" + 
                       '<iframe width="400" height="238" src="' +
                       mediaContent[i].link +
