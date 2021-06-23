@@ -1,0 +1,11 @@
+Add ph ...
+Tab which we Exaplin how we calculate the dbscan
+
+
+db.indicators_indicatorvalue.aggregate([
+  {
+    $set: {
+      indicator_period: { $toObjectId: '$indicator_period' },
+    },
+  },
+])
