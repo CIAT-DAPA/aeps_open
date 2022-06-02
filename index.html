@@ -1,496 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
 
-    <title>AEPS-OPEN</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-  <body>
-    <nav
-      class="navbar sticky-top nav-shadow navbar-expand-lg navbar-light bg-light"
-      style="background-color: #fff; height: 150px;"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img
-            src="./assets/images/alliance-logo.png"
-            alt=""
-            width="280"
-            height="150"
-            class="d-inline-block align-text-top"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div>
-          <div class="language">
-            <a href="#" onclick="setLanguage('en')" class="language-item">
-              <p class="mr-3">
-                <img
-                  src="./assets/images/english.png"
-                  class="mr-1"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />English
-              </p>
-            </a>
-            <a href="#" onclick="setLanguage('es')" class="language-item">
-              <p>
-                <img
-                  src="./assets/images/spanish.png"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />
-                Spanish
-              </p>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul id="nave" class="navbar-nav ml-auto mr-3">
-              <li id="homes" class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
-                  ></a
-                >
-              </li>
-              <li id="tool" class="nav-item ml-4">
-                <a class="nav-link" href="./tools.html"></a>
-              </li>
-              <li id="service" class="nav-item ml-4">
-                <a class="nav-link" href="./services.html"></a>
-              </li>
-              <li id="success" class="nav-item ml-4">
-                <a class="nav-link" href="./success-cases.html"
-                  ></a
-                >
-              </li>
-              <li id="media" class="nav-item ml-4">
-                <a class="nav-link" href="./media.html"></a>
-              </li>
-              <li id="article" class="nav-item ml-4">
-                <a class="nav-link" href="./articles.html"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <title>AEPS-OPEN</title>
+</head>
 
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide mt-1"
-      data-ride="carousel"
-    >
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carouselExampleIndicators"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img id="img1"
-            src=""
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img id="img2"
-            src=""
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img id="img3"
-            src=""
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img id="img4"
-            src=""
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img id="img5"
-            src=""
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+<body>
+  <!--  Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="col col-sm-3">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo_ciat.png" alt=""
+          class="img-fluid" /></a>
     </div>
-    <div class="container">
-      <!-- <div class="row">
-            <div class="col sm-12">
-            </div>
 
-        </div> -->
-
-      <div class="row">
-        <div class="two-seq col sm-12">
-          <div class="two-seq-left mt-2">
-            <p id="lever" >TRANSFORMACIÓN DIGITAL PARA EL SISTEMA AGROALIMENTARIO</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul id="nave" class="navbar-nav mr-3 ml-auto">
+        <li id="homes" class="nav-item active">
+          <a class="nav-link" aria-current="page" href="./index.html"></a>
+        </li>
+        <li id="tool" class="nav-item ml-4">
+          <a class="nav-link" href="./tools.html"></a>
+        </li>
+        <li id="service" class="nav-item ml-4">
+          <a class="nav-link" href="./services.html"></a>
+        </li>
+        <li id="success" class="nav-item ml-4">
+          <a class="nav-link" href="./success-cases.html"></a>
+        </li>
+        <li id="project" class="nav-item ml-4">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li id="media" class="nav-item ml-4">
+          <a class="nav-link" href="./media.html"></a>
+        </li>
+        <li id="article" class="nav-item ml-4">
+          <a class="nav-link" href="./articles.html"></a>
+        </li>
+        <li class="nav-item dropdown ml-4">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src="./assets/images/lenguaje.png" alt="" width="20px" height="20px" />
+          </a>
+          <!-- Dropdown - Lenguage -->
+          <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            aria-labelledby="messagesDropdown">
+            <h6 id="header-language" class="dropdown-header">Language</h6>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('en')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/english.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="en" class="font-weight">
+                <div class="text-truncate">English.</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('es')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/spanish.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="es" class="font-weight">
+                <div class="text-truncate">Spanish.</div>
+              </div>
+            </a>
           </div>
-          <div class="two-seq-right mt-2 mr-2 p-1" >
-            <p id="summary-lever">
-              La Alianza Bioversity & CIAT, ha desarrollado herramientas para mejorar los rendimientos y la toma de decisiones de más de 100.000 agricultores a través del desarrollo de herramientas para colecta, análisis de datos y divulgación de información  de manera oportuna, práctica y sitio-específica, con el objetivo de facilitar la toma de decisiones por parte de productores y técnicos sobre qué, donde, cuándo y que prácticas agronómicas aplicar para obtener una producción sotenible y adaptada al clima.
+          <!-- End_Dropdown - Lenguage -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--  End Navbar  -->
+
+  <!--  Carousel  -->
+  <div id="carouselExampleIndicators" class="carousel slide mt-1" data-ride="carousel" style="padding-top: 6.4em">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="img1" src="" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img id="img2" src="" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img id="img3" src="" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img id="img4" src="" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img id="img5" src="" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--  End Carousel-->
+
+  <div class="container-fluid red">
+    <!--  Seccion intro-->
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0 py-4">¿Cómo venimos trabajando?</h2>
+      <p class="text-center mb-0 py-4">
+        El equipo de la Alianza Bioversity - CIAT ha desarrollado una serie de
+        herramientas y de enfoques que utilizan la tecnología digital para
+        obtener, analizar y traducir los datos en información oportuna,
+        práctica y específica del contexto para ayudar a los agricultores a
+        tomar las mejores decisiones para sus cultivos.
+      </p>
+      <h2 class="text-center mt-0 py-4">Nuestro impacto se centra en</h2>
+      <hr class="divider" />
+
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-2 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+            <img src="./assets/images/brecha.jpeg" alt="" class="img-fluid" style="max-width: 100px" />
+            <p class="text-muted mb-0">
+              Reducción en la brecha de rendimiento
             </p>
-            <a href="./tools.html">
-            <button
-            id="button-lever"
-              class="btn-see-more btn btn-info"
-              style="
-                width: 10%;
-                position: absolute;
-                top: 80%;
-                left: 74%;
-                border-radius: 30px;
-              ">
-            </button></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2">
+              <i class="bi-laptop fs-1 text-primary"></i>
+            </div>
+            <img src="./assets/images/socio.jpeg" alt="" class="img-fluid" style="max-width: 100px" />
+            <p class="text-muted mb-0">Empoderamiento de socios</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+            <img src="./assets/images/cambio.jpeg" alt="" class="img-fluid" style="max-width: 100px" />
+            <p class="text-muted mb-0">
+              Mayor adaptación de los sistemas agrícolas al cambio climático
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+            <img src="./assets/images/vida.jpeg" alt="" class="img-fluid" style="max-width: 100px" />
+            <p class="text-muted mb-0">Mejores medios de vida</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+            <img src="./assets/images/sostenible.jpeg" alt="" class="img-fluid" style="max-width: 100px" />
+            <p class="text-muted mb-0">Objetivos de desarrollo sostenible</p>
           </div>
         </div>
       </div>
-      <!-- Section three -->
-      <div class="row">
-        <div class="three-seq col sm-12">
-          <div class="three-seq-left">
-            <h3 id="data-collection-title-1">LA RECOPILACIÓN DE</h3>
-            <h1 id="data-collection-title-2"><strong>DATOS</strong></h1>
-            <h3 id="data-collection-title-3">DE</h3>
-          </div>
-          <div class="three-seq-right">
-            <div class="three-seq-right-up">
-              <div class="q-one mt-5">
-                <h4 id="data-collection-1" style="font-weight: bold">RENDIMIENTO DEL CULTIVO</h4>
-                <img
-                  src="./assets/images/maiz.png"
-                  alt=""
-                  width="120px"
-                  height="130px"
-                />
-              </div>
-              <div class="q-two mt-5">
-                <h4 id="data-collection-2">INFORMACIÓN DE SUELOS</h4>
-                <img
-                  src="./assets/images/suelo.png"
-                  alt=""
-                  width="120px"
-                  height="130px"
-                />
-              </div>
-              <div class="q-three mt-3">
-                <h4 id="data-collection-3">INFORMACIÓN DE PRÁCTICAS AGRÍCOLAS</h4>
-                <img
-                  src="./assets/images/practica.png"
-                  alt=""
-                  width="100px"
-                  height="90px"
-                />
-              </div>
-              <div class="q-four mt-3">
-                <h4 id="data-collection-4">INFORMACIÓN CLIMÁTICA</h4>
-                <img
-                  src="./assets/images/climatico.png"
-                  alt=""
-                  width="100px"
-                  height="90px"
-                />
-              </div>
+
+      <h2 class="text-center mt-0 py-4">Colectamos datos de:</h2>
+
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+          <div class="row row-cols-2 flex-nowrap py-2">
+            <div class="col col-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ed8e36"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
             </div>
-            <div class="three-seq-right-bottom mt-4">
-              <p id="data-collection-description">
-                DERIVADOS DE ESTRATEGIAS MODERNAS PARA LA CAPTURA DE DATOS
-                (TIC´s, IoT, PERCEPCIÓN REMOTA, ETC) Y ALIANZAS CON DATOS
-                EXISTENTES.
+            <div class="col col-auto">Rendimiento de cultivos.</div>
+          </div>
+        </div>
+        <div class="col col-lg-1">
+          <div class="row row-cols-2 flex-nowrap py-2">
+            <div class="col col-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ed8e36"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
+            </div>
+            <div class="col">Clima.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+          <div class="row row-cols-2 flex-nowrap py-2">
+            <div class="col col-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ed8e36"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
+            </div>
+            <div class="col col-auto">
+              Información de prácticas agrícolas.
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-1">
+          <div class="row row-cols-2 flex-nowrap py-2">
+            <div class="col col-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ed8e36"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
+            </div>
+            <div class="col">Suelos.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Seccion intro -->
+
+    <!--  Cards  -->
+    <div class="container-fluid py-5 ">
+
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">CONOCE NUEVAS HERRAMIENTAS DIGITALES</h2>
+              <p class="card-text">Contamos con herramientas que han sido diseñadas y desarrollado para la colecta,
+                procesamiento y anális de datos.</p>
+              <img src="./assets/images/aeps 2.0.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-1" class="btn btn-dark btn-sm"
+                href="./tools.html">VER MÁS</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">AQUÍ ENCONTRARÁS LOS SERVICIOS QUE OFRECEMOS.</h2>
+              <p class="card-text">Que se extienden bajo el objetivo de apoyar al sector por medio de la democratización
+                de las tecnologías digitales.</p>
+              <img src="./assets/images/servicios.png" alt="" class="img-fluid" />
+            </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-2" class="btn btn-dark btn-sm"
+                href="./services.html">VER MÁS</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">HECHA UN VISTAZO A NUESTROS LOGROS Y RECONOCIMENTOS</h2>
+              <p class="card-text">Que se extienden bajo el objetivo de apoyar al sector por medio de la democratización
+                de las tecnologías digitales.</p>
+              <img src="./assets/images/logros.png" alt="" class="img-fluid" />
+            </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-3" class="btn btn-dark btn-sm"
+                href="./success-cases.html">VER MÁS</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">MIRA NUESTRO TRABAJO EN MATERIAL AUDIOVISUAL</h2>
+              <p class="card-text">Contamos con contenido multimedia del hemos hecho parte y en el que se evidencia la
+                trayectoria este equipo.</p>
+              <img src="./assets/images/videos.png" alt="" class="img-fluid" />
+            </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-4" class="btn btn-dark btn-sm"
+                href="./media.html">VER MÁS</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">OBSERVA LOS ARTÍCULOS CIENTIFICOS PUBLICADOS Y SUS TEMÁTICAS</h2>
+              <p class="card-text">La investigación es parte fundamental para el desarrllo de los objetivos del equipo.
               </p>
+              <img src="./assets/images/articulos.png" alt="" class="img-fluid" />
             </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-5" class="btn btn-dark btn-sm"
+                href="./services.html">VER MÁS</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">CONOCE LOS PROYECTOS TERMINADOS Y EN CURSO</h2>
+              <p class="card-text">Es por medio de las alianzas y la ejecución de diferentes proyectos que hemos podido
+                brindar beneficios en el sector agícola con el paso del tiempo.</p>
+              <img src="./assets/images/socios.png" alt="" class="img-fluid" />
+            </div>
+            <div class="card-footer d-flex justify-content-center"><a id="button-lever-6" class="btn btn-dark btn-sm"
+                href="#!">VER MÁS</a></div>
           </div>
         </div>
       </div>
-
-      <!-- Impact section -->
-      <div class="row mb-3">
-        <div class="impact-seq col sm-12">
-          <div class="title-seq">
-            <h1 id="impact-title">IMPACTO</h1>
-          </div>
-          <div class="impact-examples">
-            <div class="impact-one">
-              <h4 id="impact-1">Reducción en la brecha de rendimiento</h4>
-              <img
-                src="./assets/images/rendimiento.png"
-                alt=""
-                width="80px"
-                height="80px"
-              />
-            </div>
-            <div class="impact-two">
-              <h4 id="impact-2">Mejores medios para la vida</h4>
-              <img
-                src="./assets/images/grandma.png"
-                class="mt-4"
-                alt=""
-                width="80px"
-                height="85px"
-              />
-            </div>
-            <div class="impact-three">
-              <h4 id="impact-3">Empoderamiento de los socios</h4>
-              <img
-                src="./assets/images/socio.png"
-                alt=""
-                class="mt-2"
-                width="80px"
-                height="80px"
-              />
-            </div>
-            <div class="impact-four mt-5">
-              <div class="impact-four-text mr-3">
-                <h4 id="impact-4">
-                  Mayor capacidad adaptativa de los sistemas agrícolas al cambio
-                  climático
-                </h4>
-              </div>
-              <img
-                src="./assets/images/sistema.png"
-                class="mt-3"
-                alt=""
-                width="80px"
-                height="80px"
-              />
-            </div>
-            <div class="impact-five mt-3">
-              <h4>ODS</h4>
-              <div class="impact-five-ods">
-                <img
-                  src="./assets/images/1.png"
-                  alt=""
-                  width="90px"
-                  height="80px"
-                />
-                <img
-                  src="./assets/images/2.png"
-                  alt=""
-                  width="90px"
-                  height="80px"
-                  class="mt-3"
-                />
-                <img
-                  src="./assets/images/3.png"
-                  alt=""
-                  width="90px"
-                  height="80px"
-                />
-                <img
-                  src="./assets/images/4.png"
-                  alt=""
-                  width="90px"
-                  height="80px"
-                  class="mt-3"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Mission section -->
-      <!--   <div class="row mt-3 mb-3">
-            <div class="mission-seq col sm-12">
-                <div class="icon-mission">
-                    <img src="./assets/images/mission_v1.png" alt="">
-                </div>
-                <div class="text-mission ml-2">
-                    <h1>MISIÓN</h1>
-                    <p>En el 2022, ser un líder global en la agronomía guiada por los datos, trabajando en conjunto con
-                        actores claves de la agricultura, en la entrega de información rápida y apoyada en sistemas
-                        impulsados por datos con el fin de optimizar la producción agrícola sostenible.</p>
-                </div>
-
-            </div>
-        </div> -->
     </div>
-    <div class="footer">
-      <div class="logo">
-        <img
-          src="./assets/images/alliance-logo-trans.png"
-          class="mt-3"
-          alt=""
-          width="250px"
-          height="150px"
-        />
-        <img
-          src="./assets/images/ccafs.png"
-          class="mt-4 ml-3"
-          alt=""
-          height="120px"
-        />
-      </div>
-      <div class="contact">
-        <div>
+    <!--  End Cards  -->
+
+  </div>
+
+  <!--  footer  -->
+  <footer class="footer py-4">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg d-flex justify-content-around flex-wrap">
+          <img src="./assets/images/alliance-logo.png" alt="" height="100px" />
+          <img src="./assets/images/ccafs.png" alt="" style="max-height: 80px;" class="img-fluid" />
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-flex justify-content-around flex-wrap text-center">
           <h4 id="footer-contact-title" class="mt-3">CONTACTO</h4>
-          <h5 id="footer-researcher">Daniel Jimenez, PhD. Científico</h5>
-          <a href="mailto:d.jimenez@cgiar.org"><h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5></a>
+          <h5 id="footer-researcher">
+            Daniel Jimenez, PhD Leader Community of Practice Data-Driven
+            Agronomy
+          </h5>
+          <a href="mailto:d.jimenez@cgiar.org">
+            <h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5>
+          </a>
         </div>
-        <!--  <div style="float: right;">
-               
-            </div> -->
-      </div>
-      <div class="qr ml-4">
-        <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
-        <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        <div
+          class="col-lg-2 text-lg-center d-flex justify-content-around flex-wrap flex-lg-column align-items-lg-center">
+          <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
+          <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        </div>
       </div>
     </div>
- 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var language;
-      function getLanguage() {
-        localStorage.getItem("language") == null ? setLanguage("en") : false;
-        $.ajax({
-          url: "language/" + localStorage.getItem("language") + ".json",
-          dataType: "json",
-          async: true,
-          dataType: "json",
-          success: function (lang) {
-            language = lang;
-            /* Navbar */
-            document.getElementById("homes").innerHTML =
-              "<li id='homes' class='nav-item ml-3'>" +
-                "<a class='nav-link active' href='./index.html'>" +language.index.navbar[0]+"</a></li>";
-                document.getElementById("tool").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./tools.html'>" + language.index.navbar[1] +"</a></li>";
-                document.getElementById("service").innerHTML =
-              "<li id='service' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./services.html'>" + language.index.navbar[2] +"</a></li>";
-              document.getElementById("success").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./success-cases.html'>" + language.index.navbar[3] +"</a></li>";
-              document.getElementById("media").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./media.html'>" + language.index.navbar[4] +"</a></li>";
-              document.getElementById("article").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-                "<a class='nav-link' href='./articles.html'>" + language.index.navbar[5] +"</a></li>";
-                /* Carousel */
-                console.log("./assets/images/carousel_1_"+ localStorage.getItem("language")+".png");
-                $("#img1").attr({ "src": "./assets/images/carousel_1_"+ localStorage.getItem("language")+".png" });
-                $("#img2").attr({ "src": "./assets/images/carousel_2_"+ localStorage.getItem("language")+".png" });
-                $("#img3").attr({ "src": "./assets/images/carousel_3_"+ localStorage.getItem("language")+".png" });
-                $("#img4").attr({ "src": "./assets/images/carousel_4_"+ localStorage.getItem("language")+".png" });
-                $("#img5").attr({ "src": "./assets/images/carousel_5_"+ localStorage.getItem("language")+".png" });
-                /* End carousel */
-                /* Lever */
-                document.getElementById("lever").innerHTML =
-              "<p id='lever'>"+ language.index.lever.title + "</p>"
-              document.getElementById("summary-lever").innerHTML =
-              "<p id='lever'>"+ language.index.lever.description + "</p>"
-              document.getElementById("button-lever").innerHTML = language.index.lever.button;
-              /* Data collection */
-              document.getElementById("data-collection-title-1").innerHTML = language.index.data_collection.title[0];
-              document.getElementById("data-collection-title-2").innerHTML = language.index.data_collection.title[1];
-              document.getElementById("data-collection-title-3").innerHTML = language.index.data_collection.title[2];
-              document.getElementById("data-collection-1").innerHTML = language.index.data_collection.item[0];
-              document.getElementById("data-collection-2").innerHTML = language.index.data_collection.item[1];
-              document.getElementById("data-collection-3").innerHTML = language.index.data_collection.item[2];
-              document.getElementById("data-collection-4").innerHTML = language.index.data_collection.item[3];
-              document.getElementById("data-collection-description").innerHTML = language.index.data_collection.description;
-              /* Impact */
-              document.getElementById("impact-title").innerHTML = language.index.impact.title;
-              document.getElementById("impact-1").innerHTML = language.index.impact.item[0];
-              document.getElementById("impact-2").innerHTML = language.index.impact.item[1];
-              document.getElementById("impact-3").innerHTML = language.index.impact.item[2];
-              document.getElementById("impact-4").innerHTML = language.index.impact.item[3];
-              /* Footer */
-              document.getElementById("footer-contact-title").innerHTML = language.index.footer.contact_title;
-              document.getElementById("footer-researcher").innerHTML = language.index.footer.researcher;
-              document.getElementById("footer-qr-title").innerHTML = language.index.footer.qr_title;
-          },
-        });
-      }
+  </footer>
 
-      function setLanguage(lang) {
-        localStorage.setItem("language", lang);
-        getLanguage();
-      }
-    </script>
-      <script>
-        $(document).ready(function () {
-          getLanguage()
-        });
-      </script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script>
+    var language;
+    function getLanguage() {
+      localStorage.getItem("language") == null ? setLanguage("en") : false;
+      $.ajax({
+        url: "language/" + localStorage.getItem("language") + ".json",
+        dataType: "json",
+        async: true,
+        dataType: "json",
+        success: function (lang) {
+          language = lang;
+          /* Navbar */
+          document.getElementById("homes").innerHTML =
+            "<a class='nav-link active' href='./index.html'>" +
+            language.index.navbar[0] +
+            "</a>";
+          document.getElementById("tool").innerHTML =
+            "<a class='nav-link' href='./tools.html'>" +
+            language.index.navbar[1] +
+            "</a>";
+          document.getElementById("service").innerHTML =
+            "<a class='nav-link' href='./services.html'>" +
+            language.index.navbar[2] +
+            "</a>";
+          document.getElementById("success").innerHTML =
+            "<a class='nav-link' href='./success-cases.html'>" +
+            language.index.navbar[3] +
+            "</a>";
+          document.getElementById("project").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[4] +
+            "</a>";
+          document.getElementById("media").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[5] +
+            "</a>";
+          document.getElementById("article").innerHTML =
+            "<a class='nav-link' href='./articles.html'>" +
+            language.index.navbar[6] +
+            "</a>";
+          document.getElementById("header-language").innerHTML =
+            language.index.navbar[7];
+          document.getElementById("en").className = "font-weight";
+          document.getElementById("es").className = "font-weight";
+          document.getElementById(
+            localStorage.getItem("language")
+          ).className = "font-weight-bold";
+          /* Carousel */
+          console.log(
+            "./assets/images/carousel_1_" +
+            localStorage.getItem("language") +
+            ".png"
+          );
+          for (let i = 0; i <= 5; i++) {
+            $(`#img${i}`).attr({
+              src:
+                `./assets/images/carousel_${i}_` +
+                localStorage.getItem("language") +
+                ".png",
+            });
+          }
+          /* End carousel */
+          /* Lever */
+          for (let i = 1; i <= 6; i++) {
+            document.getElementById(`button-lever-${i}`).innerHTML =
+              language.index.lever.button;
+          }
+          /* Footer */
+          document.getElementById("footer-contact-title").innerHTML =
+            language.index.footer.contact_title;
+          document.getElementById("footer-researcher").innerHTML =
+            language.index.footer.researcher;
+          document.getElementById("footer-qr-title").innerHTML =
+            language.index.footer.qr_title;
+        },
+      });
+    }
+
+    function setLanguage(lang) {
+      localStorage.setItem("language", lang);
+      getLanguage();
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      getLanguage();
+    });
+  </script>
+</body>
+
 </html>

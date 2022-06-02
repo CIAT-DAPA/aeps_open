@@ -1,12 +1,14 @@
 {
   "index": {
     "navbar": [
-      "INICIO",
-      "HERRAMIENTAS",
-      "SERVICIOS",
-      "CASOS DE ÉXITO",
-      "MEDIA",
-      "ARTÍCULOS"
+      "Inicio",
+      "Herramientas",
+      "Servicios",
+      "Logros",
+      "Proyectos",
+      "Media",
+      "Artículos",
+      "Lenguaje"
     ],
     "lever": {
         "title": "TRANSFORMACIÓN DIGITAL PARA EL SISTEMA AGROALIMENTARIO",

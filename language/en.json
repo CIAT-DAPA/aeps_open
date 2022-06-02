@@ -1,12 +1,14 @@
 {
     "index": {
       "navbar": [
-        "HOME",
-        "TOOLS",
-        "SERVICES",
-        "SUCCESS CASES",
-        "MEDIA",
-        "ARTICLES"
+        "Home",
+        "Tools",
+        "Services",
+        "Achievements",
+        "Projects",
+        "Media",
+        "Articles",
+        "Language"
       ],
       "lever": {
         "title": "DIGITAL TRANSFORMATION FOR THE AGRI-FOOD SYSTEM",
@@ -23,7 +25,7 @@
       "item":["Reduction in performance gap", "Better means for life", "Partner empowerment", "Greater adaptive capacity of agricultural systems to climate change"]},
     "footer": {
         "contact_title": "CONTACT",
-        "researcher": "Daniel Jimenez, PhD. Scientific",
+        "researcher": "Daniel Jimenez, PhD Leader Community of Practice Data-Driven Agronomy",
         "qr_title": "See more in:"
     }
     },
