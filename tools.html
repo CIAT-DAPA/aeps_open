@@ -1,343 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-    <link rel="stylesheet" href="./css/tool.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
 
-    <title>AEPS-OPEN</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  <link rel="stylesheet" href="./css/tool.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-  <body>
-    <nav
-      class="navbar sticky-top nav-shadow navbar-expand-lg navbar-light bg-light"
-      style="background-color: #fff"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img
-            src="./assets/images/alliance-logo.png"
-            alt=""
-            width="280"
-            height="150"
-            class="d-inline-block align-text-top"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div>
-          <div class="language">
-            <a href="#" onclick="setLanguage('en')" class="language-item">
-              <p class="mr-3">
-                <img
-                  src="./assets/images/english.png"
-                  class="mr-1"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />English
-              </p>
-            </a>
-            <a href="#" onclick="setLanguage('es')" class="language-item">
-              <p>
-                <img
-                  src="./assets/images/spanish.png"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />
-                Spanish
-              </p>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul id="nave" class="navbar-nav ml-auto mr-3">
-              <li id="homes" class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html"
-                  ></a
-                >
-              </li>
-              <li id="tool" class="nav-item ml-4">
-                <a class="nav-link active" href="./tools.html"></a>
-              </li>
-              <li id="service" class="nav-item ml-4">
-                <a class="nav-link" href="./services.html"></a>
-              </li>
-              <li id="success" class="nav-item ml-4">
-                <a class="nav-link" href="./success-cases.html"
-                  ></a
-                >
-              </li>
-              <li id="media" class="nav-item ml-4">
-                <a class="nav-link" href="./media.html"></a>
-              </li>
-              <li id="article" class="nav-item ml-4">
-                <a class="nav-link" href="./articles.html"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- content -->
-    <div class="container">
-      <div class="row">
-        <div class="first-section col sm-12">
-          <div class="text-first-section">
-            <h1 id="tool-title"><!-- HERRAMIENTAS --></h1>
-            <p id="tool-description">
-              <!-- El equipo desarrolla constantemente herramientas Y plataformas de
-              agricultura digital. Para saber más sobre cada UNO desliza hacia
-              abajo. -->
-            </p>
-          </div>
-          <div class="icon-first-section">
-            <img
-              src="./assets/images/tool.png"
-              alt=""
-              width="500px"
-              height="450px"
-            />
-          </div>
-        </div>
-      </div>
-      <hr />
-      <!-- Tools -->
-      <div class="row-test mb-4"></div>
+  <title>AEPS-OPEN</title>
+</head>
+
+<body>
+  <!--  Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="col col-sm-3">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo_ciat.png" alt=""
+          class="img-fluid" /></a>
     </div>
-    <!-- End tools -->
-    <div class="footer">
-      <div class="logo">
-        <img
-          src="./assets/images/alliance-logo-trans.png"
-          class="mt-3"
-          alt=""
-          width="250px"
-          height="150px"
-        />
-        <img
-          src="./assets/images/ccafs.png"
-          class="mt-4 ml-3"
-          alt=""
-          height="120px"
-        />
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul id="nave" class="navbar-nav mr-3 ml-auto">
+        <li id="homes" class="nav-item ml-4">
+          <a class="nav-link" href="./index.html"></a>
+        </li>
+        <li id="tool" class="nav-item ml-4">
+          <a class="nav-link" href="./tools.html"></a>
+        </li>
+        <li id="service" class="nav-item ml-4">
+          <a class="nav-link" href="./services.html"></a>
+        </li>
+        <li id="success" class="nav-item ml-4">
+          <a class="nav-link" href="./success-cases.html"></a>
+        </li>
+        <li id="project" class="nav-item ml-4">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li id="media" class="nav-item ml-4">
+          <a class="nav-link" href="./media.html"></a>
+        </li>
+        <li id="article" class="nav-item ml-4">
+          <a class="nav-link" href="./articles.html"></a>
+        </li>
+        <li class="nav-item dropdown ml-4">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src="./assets/images/lenguaje.png" alt="" width="20px" height="20px" />
+          </a>
+          <!-- Dropdown - Lenguage -->
+          <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            aria-labelledby="messagesDropdown">
+            <h6 id="header-language" class="dropdown-header">Language</h6>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('en')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/english.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="en" class="font-weight">
+                <div class="text-truncate">English.</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('es')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/spanish.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="es" class="font-weight">
+                <div class="text-truncate">Spanish.</div>
+              </div>
+            </a>
+          </div>
+          <!-- End_Dropdown - Lenguage -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--  End Navbar  -->
+
+  <div class="container-fluid " style="padding-top: 6.4em">
+
+    <header class="intro">
+      <div class="container">
+        <div class="heading" id="title_1">Herramientas digitales diseñadas para la agricultura sostenible</div>
       </div>
-      <div class="contact">
-        <div>
+    </header>
+
+    <!--  Intro  -->
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0 py-4" id="title_2">Accede a nuestro portal de acceso abierto para revisar cada una:
+      </h2>
+      <hr class="divider" />
+      <p class="text-center mb-0 py-4" id="description">Fomentamos la tranformación e inclusión de las teconolgias
+        digitales en el sistema agroalimentario haciendo uso de las herramientas desarrolladas por el equipo.
+      </p>
+
+    </div>
+
+    <!--  Cards  -->
+    <div class="container-fluid pt-5 ">
+
+      <div class="row gx-4 gx-lg-5" id="cards">
+
+      </div>
+    </div>
+  </div>
+  <!--  End Cards  -->
+  </div>
+  <!-- End tools -->
+
+
+
+  <!--  footer  -->
+  <footer class="footer py-4">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg d-flex justify-content-around flex-wrap">
+          <img src="./assets/images/alliance-logo.png" alt="" height="100px" />
+          <img src="./assets/images/ccafs.png" alt="" style="max-height: 80px" class="img-fluid" />
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-flex justify-content-around flex-wrap text-center">
           <h4 id="footer-contact-title" class="mt-3">CONTACTO</h4>
-          <h5 id="footer-researcher">Daniel Jimenez, PhD. Científico</h5>
-          <a href="mailto:d.jimenez@cgiar.org"><h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5></a>
+          <h5 id="footer-researcher">
+            Daniel Jimenez, PhD Leader Community of Practice Data-Driven
+            Agronomy
+          </h5>
+          <a href="mailto:d.jimenez@cgiar.org">
+            <h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5>
+          </a>
         </div>
-        <!--  <div style="float: right;">
-                 
-              </div> -->
-      </div>
-      <div class="qr ml-4">
-        <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
-        <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        <div
+          class="col-lg-2 text-lg-center d-flex justify-content-around flex-wrap flex-lg-column align-items-lg-center">
+          <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
+          <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        </div>
       </div>
     </div>
+  </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var language;
-      function getLanguage() {
-        getItems(localStorage.getItem("language"))
-        localStorage.getItem("language") == null ? setLanguage("en") : false;
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script>
+    var language;
+    function getLanguage() {
+      getItems2(localStorage.getItem("language"));
+      localStorage.getItem("language") == null ? setLanguage("en") : false;
+      $.ajax({
+        url: "language/" + localStorage.getItem("language") + ".json",
+        dataType: "json",
+        async: true,
+        dataType: "json",
+        success: function (lang) {
+          language = lang;
+          /* Navbar */
+          document.getElementById("homes").innerHTML =
+            "<a class='nav-link' href='./index.html'>" +
+            language.index.navbar[0] +
+            "</a>";
+          document.getElementById("tool").innerHTML =
+            "<a class='nav-link active' href='./tools.html'>" +
+            language.index.navbar[1] +
+            "</a>";
+          document.getElementById("service").innerHTML =
+            "<a class='nav-link' href='./services.html'>" +
+            language.index.navbar[2] +
+            "</a>";
+          document.getElementById("success").innerHTML =
+            "<a class='nav-link' href='./success-cases.html'>" +
+            language.index.navbar[3] +
+            "</a>";
+          document.getElementById("project").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[4] +
+            "</a>";
+          document.getElementById("media").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[5] +
+            "</a>";
+          document.getElementById("article").innerHTML =
+            "<a class='nav-link' href='./articles.html'>" +
+            language.index.navbar[6] +
+            "</a>";
+          document.getElementById("header-language").innerHTML =
+            language.index.navbar[7];
+          document.getElementById("en").className = "font-weight";
+          document.getElementById("es").className = "font-weight";
+          document.getElementById(
+            localStorage.getItem("language")
+          ).className = "font-weight-bold";
+          /*  intro  */
+          document.getElementById("title_1").innerHTML =
+            language.tool.title_1;
+          document.getElementById("title_2").innerHTML =
+            language.tool.title_2;
+          document.getElementById("description").innerHTML =
+            language.tool.description;
+
+          /* Footer */
+          document.getElementById("footer-contact-title").innerHTML =
+            language.index.footer.contact_title;
+          document.getElementById("footer-researcher").innerHTML =
+            language.index.footer.researcher;
+          document.getElementById("footer-qr-title").innerHTML =
+            language.index.footer.qr_title;
+        },
+      });
+    }
+
+    function getItems2(lan) {
+      $(document).ready(function () {
         $.ajax({
-          url: "language/" + localStorage.getItem("language") + ".json",
-          dataType: "json",
-          async: true,
-          dataType: "json",
-          success: function (lang) {
-            language = lang;
-            /* Navbar */
-            document.getElementById("homes").innerHTML =
-              "<li id='homes' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./index.html'>" +
-              language.index.navbar[0] +
-              "</a></li>";
-            document.getElementById("tool").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link active' href='./tools.html'>" +
-              language.index.navbar[1] +
-              "</a></li>";
-            document.getElementById("service").innerHTML =
-              "<li id='service' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./services.html'>" +
-              language.index.navbar[2] +
-              "</a></li>";
-            document.getElementById("success").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./success-cases.html'>" +
-              language.index.navbar[3] +
-              "</a></li>";
-            document.getElementById("media").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./media.html'>" +
-              language.index.navbar[4] +
-              "</a></li>";
-            document.getElementById("article").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./articles.html'>" +
-              language.index.navbar[5] +
-              "</a></li>";
-            /* Tools description */
-            document.getElementById("tool-title").innerHTML =
-              language.tool.title;
-            document.getElementById("tool-description").innerHTML =
-              language.tool.description;
-            /* Footer */
-            document.getElementById("footer-contact-title").innerHTML =
-              language.index.footer.contact_title;
-            document.getElementById("footer-researcher").innerHTML =
-              language.index.footer.researcher;
-            document.getElementById("footer-qr-title").innerHTML =
-              language.index.footer.qr_title;
-          },
-        });
-      }
-      function getItems(lan) {
-
-        $(document).ready(function () {
-          $.ajax({
           type: "GET",
-          url: "db/tool.csv",
+          url: "db/tools_2.csv",
           dataType: "text",
           success: function (data) {
-            tools = processData(data);
-            $(".row-test").html("");
-            if (lan == "es") {
-
-              $(tools).each(function (i, e) {
-                if (tools[i].text_es) {
-                $(".row-test").append(
-                '<a href="' +
-                tools[i].repository_link +
-                  '"' +
-                  'target="_blank" class="url mt-2">' +
-                  '<div class="tool-content tool-detail-1">' +
-                    '<div class="title-tool tool-detail-1 card-tool">' +
-                  '<h5 class="mt-2">'+tools[i].type_es+'</h5>' +
-                  "<h3>" +
-                  tools[i].title_es +
-                  "</h3>" +
-                  '<p class="mt-2">' +
-                  tools[i].description_es +
-                  "</p>" +
-                  '<img src="./assets/images/tool_'+i+
-                  '.png" alt="" width="100px" height="100px" class="mb-2"/>' +
-                  "</div>" +
-                  '<div class="summary-tool tool-opacity-1">' +
-                    "<p class='mb-2'>"+tools[i].text_es+"</p>" +
-                    "</div>" +
-                    "</div>" +
-                    "</a>"
-                    );
-                }
-                  });
-                } if (lan == "en") {
-                  $(tools).each(function (i, e) {
-                    if (tools[i].text_en) {
-                $(".row-test").append(
-                '<a href="' +
-                tools[i].repository_link +
-                  '"' +
-                  'target="_blank" class="url mt-2">' +
-                  '<div class="tool-content tool-detail-1">' +
-                    '<div class="title-tool tool-detail-1 card-tool">' +
-                  '<h5 class="mt-2">'+tools[i].type_en+'</h5>' +
-                  "<h3>" +
-                  tools[i].title_en +
-                  "</h3>" +
-                  '<p class="mt-2">' +
-                  tools[i].description_en +
-                  "</p>" +
-                  '<img src="./assets/images/tool_' +
-                  i +
-                  '.png" alt="" width="100px" height="100px" class="mb-2"/>' +
-                  "</div>" +
-                  '<div class="summary-tool tool-opacity-1">' +
-                    "<p>"+tools[i].text_en+"</p>" +
-                    "</div>" +
-                    "</div>" +
-                    "</a>"
-                    );
-                    }
-                  });
-                }
-                },
-              });
+            tools = processData(data)
+            $("#cards").html("");
+            $(tools).each(function (i, e) {
+              if (e.text_es) {
+                $("#cards").append(
+                  `<div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                      <h4 class="card-header text-center">
+                        ${e[`title_${lan}`]}</h4>
+                      <div class="card-body">
+                        <div class="row row-cols-2 flex-nowrap py-2 align-items-center justify-content-around">
+                          <h4 class="card-title">${e[`description_${lan}`]}</h4>
+                          <img src="./assets/images/tool_${i}.png" style="max-width: 100px; max-height: 130px;" alt="" class="img-fluid"/>
+                        </div>
+                        <p class="card-text">${e[`text_${lan}`]}</p>
+                      </div>
+                      <div class="card-footer d-flex justify-content-center border-0 bg-transparent">
+                        <a id="button-lever-${i}" class="btn btn-dark btn-sm" href="${e["repository_link"]}" target="_blank">
+                          VER MÁS</a></div>
+                    </div>`
+                );
+              }
             });
-        }
-          
-          function processData(allText) {
-        var allTextLines = allText.split(/\r\n|\n/);
-        var entries = allTextLines[0].split(";");
-        var lines = [];
-        var record_num = 8; // or however many elements there are in each row
-
-        var headings = entries.splice(0, 10);
-        var tarr = [];
-
-        for (let i = 1; i < allTextLines.length; i++) {
-          var obj = {};
-          var currentline = allTextLines[i].split(";");
-          for (var j = 0; j < headings.length; j++) {
-            obj[headings[j]] = currentline[j];
-          }
-          lines.push(obj);
-        }
-        return lines;
-      }
-      // alert(lines);
-
-      function setLanguage(lang) {
-        localStorage.setItem("language", lang);
-        getLanguage();
-      }
-    </script>
-    <script>
-      $(document).ready(function () {
-        getLanguage();
+          },
+        });
       });
-    </script>
-  </body>
+    }
+
+    function processData(allText) {
+      var allTextLines = allText.split(/\r\n|\n/);
+      var headings = allTextLines[0].split(";");
+      var lines = [];
+
+      for (let i = 1; i < allTextLines.length; i++) {
+        var obj = {};
+        var currentline = allTextLines[i].split(";");
+        for (var j = 0; j < headings.length; j++) {
+          obj[headings[j]] = currentline[j];
+        }
+        lines.push(obj);
+      }
+      console.log("lienas", lines)
+      return lines;
+    }
+    // alert(lines);
+
+    function setLanguage(lang) {
+      localStorage.setItem("language", lang);
+      getLanguage();
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      getLanguage();
+    });
+  </script>
+</body>
+
 </html>
