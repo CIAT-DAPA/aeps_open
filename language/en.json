@@ -30,9 +30,10 @@
     }
     },
     "tool": {
-      "title": "TOOLS",
-      "description": "The team is constantly developing digital farming tools AND platforms. To know more about each one scroll down." 
-    },
+      "title_1": "Digital tools designed for sustainable agriculture",
+      "title_2": "Look up to each of our open-access tools:",
+      "description": "We encourage the digital technologies transformation and their inclusion in the agri-food system by using tools developed by the team."
+  },
     "service": {
       "title": "SERVICES",
       "description": "The activities carried out by the digital transformation team are established as means to achieve the progress of the agri-food system.",
