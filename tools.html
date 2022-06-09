@@ -159,7 +159,6 @@
   <script>
     var language;
     function getLanguage() {
-      getItems2(localStorage.getItem("language"));
       localStorage.getItem("language") == null ? setLanguage("en") : false;
       $.ajax({
         url: "language/" + localStorage.getItem("language") + ".json",
@@ -167,7 +166,8 @@
         async: true,
         dataType: "json",
         success: function (lang) {
-          language = lang;
+          language = lang;          
+          getItems2(localStorage.getItem("language"), lang);
           /* Navbar */
           document.getElementById("homes").innerHTML =
             "<a class='nav-link' href='./index.html'>" +
@@ -223,7 +223,7 @@
       });
     }
 
-    function getItems2(lan) {
+    function getItems2(lan, lang) {
       $(document).ready(function () {
         $.ajax({
           type: "GET",
@@ -248,7 +248,7 @@
                       </div>
                       <div class="card-footer d-flex justify-content-center border-0 bg-transparent">
                         <a id="button-lever-${i}" class="btn btn-dark btn-sm" href="${e["repository_link"]}" target="_blank">
-                          VER MÁS</a></div>
+                          ${lang.index.lever.button}</a></div>
                     </div>`
                 );
               }
