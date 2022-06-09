@@ -49,12 +49,12 @@
     "title_1": "Our services",
     "title_2": "Find out about the services we offer to promote digital transformation in agri-food systems",
     "description": "We provide access to small, medium and large producers to the benefits of digital technologies through their transformation and democratization.",
-    "title_service_1": "Design thinking to create Digital Agriculture tools for sustainable agri-food systems.",
-    "service_1": "Through design thinking, we co-create tools with a focused perspective on our partners and farmers with rational and analytical research that is tailored to their needs and generate recommendations for sustainable best practices and innovative solutions.",
-    "title_service_2": "Development of digital extension services, or advisory services that empower partners and farmers.",
-    "service_2": "We train farmers/technicians in data mining and other data analysis models so they can generate recommendations. In addition, we develop information platforms that facilitate decision-making, educational material on digital agriculture, and internships for technicians and researchers with our research group",
-    "title_service_3": "Data-driven innovative solutions for agri-food systems.",
-    "service_3": "We collect, analyze and integrate biophysical and in some cases socio-economic data from small, medium, and large farmers or professionals in the sector, with open access tools tailored to specific objectives. Making use and promoting methods and technologies that are at the forefront of the fourth industrial revolution, sensors, Information and Communication Technologies (ICT), IoT, Artificial Intelligence, remote sensing, statistical methods, and machine learning, among others. They learn, predict, and adapt in order to classify groups, predict results and identify anomalous or unexpected behaviors that generate recommendations to farmers for optimal sustainable practices leading to optimal yields under the scenario of climate change."
+    "title_service_1": "Data-driven innovative solutions for agri-food systems.",
+    "service_1": "We collect, analyze and integrate biophysical and in some cases socio-economic data from small, medium, and large farmers or professionals in the sector, with open access tools tailored to specific objectives. Making use and promoting methods and technologies that are at the forefront of the fourth industrial revolution, sensors, Information and Communication Technologies (ICT), IoT, Artificial Intelligence, remote sensing, statistical methods, and machine learning, among others. They learn, predict, and adapt in order to classify groups, predict results and identify anomalous or unexpected behaviors that generate recommendations to farmers for optimal sustainable practices leading to optimal yields under the scenario of climate change.",
+    "title_service_2": "Design thinking to create Digital Agriculture tools for sustainable agri-food systems.",
+    "service_2": "Through design thinking, we co-create tools with a focused perspective on our partners and farmers with rational and analytical research that is tailored to their needs and generate recommendations for sustainable best practices and innovative solutions.",
+    "title_service_3": "Development of digital extension services, or advisory services that empower partners and farmers.",
+    "service_3": "We train farmers/technicians in data mining and other data analysis models so they can generate recommendations. In addition, we develop information platforms that facilitate decision-making, educational material on digital agriculture, and internships for technicians and researchers with our research group"
   },
   "success_cases": {
     "title": "SUCCESS CASES",
