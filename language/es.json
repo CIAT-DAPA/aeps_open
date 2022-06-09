@@ -35,13 +35,15 @@
     "description": "Fomentamos la tranformación e inclusión de las teconolgias digitales en el sistema agroalimentario haciendo uso de las herramientas desarrolladas por el equipo."
   },
   "service": {
-    "title": "SERVICIOS",
-    "description": "Las actividades que realiza el equipo de tranformación digital se establecen como medios para llegar al progreso del sistema agroalimentario.",
-    "service_1": "Desarrollo en implementación de flujos de trabajo para limpieza y consolidación de información.",
-    "service_2": "Análitica de datos utilizando métodos estadísticos y de machine learning.",
-    "service_3": "Visualización de información usuarios finales (técnicos, productores, investigadores del sector agrícola).",
-    "service_4": "Capacitación en minería de datos aplicado a agricultura.",
-    "service_5": "Captura de datos."
+    "title_1": "Nuestros servicios",
+    "title_2": "Entérate sobre los servicios que ofrecemos para fomentar la transfomación digital en sistemas agroalimentarios",
+    "description": "Brindamos acceso a pequeños, medianos y grandes productores a los beneficios de las tecnologías digitales por medio de su transformación y democratización.",
+    "title_service_1": "Diseño de  herramientas de Agricultura Digital para sistemas agroalimentarios sostenibles.",
+    "service_1": "Mediante el pensamiento de diseño co-creamos herramientas con una perspectiva centrada en nuestros socios y agricultores con una investigación racional y analítica que se adapta a sus necesidades y generan recomendaciones de prácticas óptimas sostenibles y soluciones innovadoras.",
+    "title_service_2": "Desarrollo de programas de asistencia técnica que empoderan a los socios y agricultores.",
+    "service_2": "Capacitamos a los agricultores/técnicos en minería de datos y otros modelos para el análisis de datos de manera que ellos puedan generar recomendaciones. Además, desarrollamos  plataformas de información que les facilitan la toma de decisiones, material educativo en agricultura digital y pasantías de técnicos e investigadores con nuestro grupo de investigación.",
+    "title_service_3": "Implementación de herramientas digitales innovadoras para el sistema agroalimentario.",
+    "service_3": "Colectamos, analizamos e integramos datos biofisicos y en algunos casos socio económicos por parte de los pequeños, medianos y grandes agricultores o profesionales del sector, con herramientas de acceso abierto ajustadas para objetivos específicos. Haciendo uso y promoción de métodos y tecnologías que están en la vanguardia de la cuarta revolución industrial, sensores, Tecnologías de la Información y la Comunicación (TIC), IoT, Inteligencia Artificial, sensoramiento remoto, métodos estadísticos y de machine learning, entre otros. Que aprenden, predicen y se adaptan para así clasificar grupos, pronosticar resultados e identificar comportamientos anómalos o inesperados que generan recomendaciones a los agricultores de prácticas óptimas sostenibles conduciendo rendimientos óptimos bajo el escenario de cambio climático."
   },
   "success_cases": {
     "title": "CASOS DE ÉXITO",

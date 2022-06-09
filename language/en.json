@@ -1,60 +1,73 @@
 {
-    "index": {
-      "navbar": [
-        "Home",
-        "Tools",
-        "Services",
-        "Achievements",
-        "Projects",
-        "Media",
-        "Articles",
-        "Language"
+  "index": {
+    "navbar": [
+      "Home",
+      "Tools",
+      "Services",
+      "Achievements",
+      "Projects",
+      "Media",
+      "Articles",
+      "Language"
+    ],
+    "lever": {
+      "title": "DIGITAL TRANSFORMATION FOR THE AGRI-FOOD SYSTEM",
+      "description": "The Bioversity & CIAT Alliance has developed tools to improve the yields and decision-making of more than 100,000 farmers through the development of tools for the collection, analysis of data and dissemination of information in a timely, practical and site-specific manner, with The objective of facilitating decision-making by producers and technicians on what, where, when and which agronomic practices to apply to obtain a sustainable production adapted to the climate.",
+      "button": "See more"
+    },
+    "data_collection": {
+      "title": ["THE COLLECTION OF", "DATA", "OF"],
+      "item": [
+        "CROP YIELD",
+        "SOIL INFORMATION",
+        "AGRICULTURAL PRACTICES INFORMATION",
+        "CLIMATE INFORMATION"
       ],
-      "lever": {
-        "title": "DIGITAL TRANSFORMATION FOR THE AGRI-FOOD SYSTEM",
-        "description": "The Bioversity & CIAT Alliance has developed tools to improve the yields and decision-making of more than 100,000 farmers through the development of tools for the collection, analysis of data and dissemination of information in a timely, practical and site-specific manner, with The objective of facilitating decision-making by producers and technicians on what, where, when and which agronomic practices to apply to obtain a sustainable production adapted to the climate.",
-        "button": "See more"
-      },
-      "data_collection":{
-        "title": ["THE COLLECTION OF", "DATA", "OF"],
-          "item": ["CROP YIELD", "SOIL INFORMATION", "AGRICULTURAL PRACTICES INFORMATION", "CLIMATE INFORMATION"],
-        "description": "DERIVED FROM MODERN STRATEGIES FOR DATA CAPTURE (ICT, IoT, REMOTE PERCEPTION, ETC) AND ALLIANCES WITH EXISTING DATA."
+      "description": "DERIVED FROM MODERN STRATEGIES FOR DATA CAPTURE (ICT, IoT, REMOTE PERCEPTION, ETC) AND ALLIANCES WITH EXISTING DATA."
     },
     "impact": {
       "title": "IMPACT",
-      "item":["Reduction in performance gap", "Better means for life", "Partner empowerment", "Greater adaptive capacity of agricultural systems to climate change"]},
+      "item": [
+        "Reduction in performance gap",
+        "Better means for life",
+        "Partner empowerment",
+        "Greater adaptive capacity of agricultural systems to climate change"
+      ]
+    },
     "footer": {
-        "contact_title": "CONTACT",
-        "researcher": "Daniel Jimenez, PhD Leader Community of Practice Data-Driven Agronomy",
-        "qr_title": "See more in:"
+      "contact_title": "CONTACT",
+      "researcher": "Daniel Jimenez, PhD Leader Community of Practice Data-Driven Agronomy",
+      "qr_title": "See more in:"
     }
-    },
-    "tool": {
-      "title_1": "Digital tools designed for sustainable agriculture",
-      "title_2": "Look up to each of our open-access tools:",
-      "description": "We encourage the digital technologies transformation and their inclusion in the agri-food system by using tools developed by the team."
   },
-    "service": {
-      "title": "SERVICES",
-      "description": "The activities carried out by the digital transformation team are established as means to achieve the progress of the agri-food system.",
-      "service_1": "Development in implementation of workflows for cleaning and consolidation of information.",
-      "service_2": "Data analysis using statistical and machine learning methods.",
-      "service_3": "Visualization of information end users (technicians, producers, researchers in the agricultural sector).",
-      "service_4": "Training in data mining applied to agriculture.",
-      "service_5": "Data capture"
-    },
-    "success_cases": {
-      "title": "SUCCESS CASES",
-      "awards_title": "INTERNATIONAL AWARDS",
-      "description": "With more than 10 years of experience in digital agriculture, the team has managed to highlight its projects, be recognized by various entities and has generated an impact in the different territories where it has carried out its work.",
-      "category": ["Successful projects", "Conventions", "Awards", "Publications"]
-    },
-    "media" : {
-      "title": "MEDIA CONTENT",
-      "description": "Then you will be able to see the webinars, videos, documentaries and other multimedia elements that the team has left on its journey."
-    },
-    "article": {
-      "title": "ARTICLES",
-      "description": "The team's work in the development of research published in various scientific journals has been important and enriching. Here below you will find the publications made."
-    }
+  "tool": {
+    "title_1": "Digital tools designed for sustainable agriculture",
+    "title_2": "Look up to each of our open-access tools:",
+    "description": "We encourage the digital technologies transformation and their inclusion in the agri-food system by using tools developed by the team."
+  },
+  "service": {
+    "title_1": "Our services",
+    "title_2": "Find out about the services we offer to promote digital transformation in agri-food systems",
+    "description": "We provide access to small, medium and large producers to the benefits of digital technologies through their transformation and democratization.",
+    "title_service_1": "Design thinking to create Digital Agriculture tools for sustainable agri-food systems.",
+    "service_1": "Through design thinking, we co-create tools with a focused perspective on our partners and farmers with rational and analytical research that is tailored to their needs and generate recommendations for sustainable best practices and innovative solutions.",
+    "title_service_2": "Development of digital extension services, or advisory services that empower partners and farmers.",
+    "service_2": "We train farmers/technicians in data mining and other data analysis models so they can generate recommendations. In addition, we develop information platforms that facilitate decision-making, educational material on digital agriculture, and internships for technicians and researchers with our research group",
+    "title_service_3": "Data-driven innovative solutions for agri-food systems.",
+    "service_3": "We collect, analyze and integrate biophysical and in some cases socio-economic data from small, medium, and large farmers or professionals in the sector, with open access tools tailored to specific objectives. Making use and promoting methods and technologies that are at the forefront of the fourth industrial revolution, sensors, Information and Communication Technologies (ICT), IoT, Artificial Intelligence, remote sensing, statistical methods, and machine learning, among others. They learn, predict, and adapt in order to classify groups, predict results and identify anomalous or unexpected behaviors that generate recommendations to farmers for optimal sustainable practices leading to optimal yields under the scenario of climate change."
+  },
+  "success_cases": {
+    "title": "SUCCESS CASES",
+    "awards_title": "INTERNATIONAL AWARDS",
+    "description": "With more than 10 years of experience in digital agriculture, the team has managed to highlight its projects, be recognized by various entities and has generated an impact in the different territories where it has carried out its work.",
+    "category": ["Successful projects", "Conventions", "Awards", "Publications"]
+  },
+  "media": {
+    "title": "MEDIA CONTENT",
+    "description": "Then you will be able to see the webinars, videos, documentaries and other multimedia elements that the team has left on its journey."
+  },
+  "article": {
+    "title": "ARTICLES",
+    "description": "The team's work in the development of research published in various scientific journals has been important and enriching. Here below you will find the publications made."
   }
+}
