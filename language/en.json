@@ -57,8 +57,8 @@
     "service_3": "We train farmers/technicians in data mining and other data analysis models so they can generate recommendations. In addition, we develop information platforms that facilitate decision-making, educational material on digital agriculture, and internships for technicians and researchers with our research group"
   },
   "success_cases": {
-    "title": "SUCCESS CASES",
-    "awards_title": "INTERNATIONAL AWARDS",
+    "title_1": "Success Cases",
+    "title_2": "INTERNATIONAL AWARDS",
     "description": "With more than 10 years of experience in digital agriculture, the team has managed to highlight its projects, be recognized by various entities and has generated an impact in the different territories where it has carried out its work.",
     "category": ["Successful projects", "Conventions", "Awards", "Publications"]
   },

@@ -3,7 +3,7 @@ header.intro {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background: rgba(0, 0, 0, 0.7) url("../assets/images/service_intro.jpg");
+  background: rgba(0, 0, 0, 0.5) url("../assets/images/service_intro.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

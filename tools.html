@@ -96,7 +96,7 @@
       </div>
     </header>
 
-    
+
     <div class="container px-4 px-lg-5">
       <h2 class="text-center mt-0 py-4" id="title_2">Accede a nuestro portal de acceso abierto para revisar cada una:
       </h2>
@@ -114,8 +114,7 @@
 
       </div>
     </div>
-  </div>
-  <!--  End Cards  -->
+    <!--  End Cards  -->
   </div>
   <!-- End tools -->
 
@@ -166,7 +165,7 @@
         async: true,
         dataType: "json",
         success: function (lang) {
-          language = lang;          
+          language = lang;
           getItems2(localStorage.getItem("language"), lang);
           /* Navbar */
           document.getElementById("homes").innerHTML =

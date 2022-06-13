@@ -1,450 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-    <link rel="stylesheet" href="./css/success-cases.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
 
-    <title>AEPS-OPEN</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  <link rel="stylesheet" href="./css/success-cases.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-  <body>
-    <nav
-      class="navbar sticky-top nav-shadow navbar-expand-lg navbar-light bg-light"
-      style="background-color: #fff"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img
-            src="./assets/images/alliance-logo.png"
-            alt=""
-            width="280"
-            height="150"
-            class="d-inline-block align-text-top"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div>
-          <div class="language">
-            <a href="#" onclick="setLanguage('en')" class="language-item">
-              <p class="mr-3">
-                <img
-                  src="./assets/images/english.png"
-                  class="mr-1"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />English
-              </p>
-            </a>
-            <a href="#" onclick="setLanguage('es')" class="language-item">
-              <p>
-                <img
-                  src="./assets/images/spanish.png"
-                  width="20px"
-                  height="20px"
-                  alt=""
-                />
-                Spanish
-              </p>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul id="nave" class="navbar-nav ml-auto mr-3">
-              <li id="homes" class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html"
-                  ></a
-                >
-              </li>
-              <li id="tool" class="nav-item ml-4">
-                <a class="nav-link" href="./tools.html"></a>
-              </li>
-              <li id="service" class="nav-item ml-4">
-                <a class="nav-link" href="./services.html"></a>
-              </li>
-              <li id="success" class="nav-item ml-4 active">
-                <a class="nav-link" href="./success-cases.html"
-                  ></a
-                >
-              </li>
-              <li id="media" class="nav-item ml-4">
-                <a class="nav-link" href="./media.html"></a>
-              </li>
-              <li id="article" class="nav-item ml-4">
-                <a class="nav-link" href="./articles.html"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- content -->
-    <div class="container">
-      <div class="row">
-        <div class="descrition-content">
-          <div class="icon-description">
-            <img src="./assets/images/success-cases.png" alt="" width="200px" />
-          </div>
-          <div class="text-content">
-            <h1 id="cases-title"><!-- CASOS DE ÉXITO --></h1>
-            <p id="cases-description">
-              <!-- Con más de 10 años de experiencia en agricultura digital el equipo
-              ha logrado destacar sus proyectos, ser reconocido por diversas
-              entidades y ha generado un impacto en los diferentes territorios
-              donde a llevado a cabo su labor. -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <!-- Awards -->
-      <div class="row-test mt-2">
-        <div class="awards-content">
-          <h1 id="awards-title">PREMIOS INTERNACIONALES</h1>
-          <div class="awards-items mt-4">
-            <div class="item">
-              <div class="card" style="width: 18rem; height: 250px">
-                <img
-                  class="card-img-top mt-2"
-                  src="./assets/images/awards.png"
-                  alt="Card image cap"
-                  width="80px"
-                  height="80px"
-                  style="width: 30%; margin-left: 35%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title orange-title">GLOBAL PULSE, 2014</h5>
-                  <p class="card-text">BIG DATA CLIMATE CHANGE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card" style="width: 18rem; height: 250px">
-                <img
-                  class="card-img-top mt-2"
-                  src="./assets/images/awards.png"
-                  alt="Card image cap"
-                  width="80px"
-                  height="80px"
-                  style="width: 30%; margin-left: 35%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title orange-title">
-                    WORLD BANK INNOVATION CHALLENGE, 2014
-                  </h5>
-                  <p class="card-text">BIG DATA FOR DEVELOPMENT.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card" style="width: 18rem; height: 250px">
-                <img
-                  class="card-img-top mt-2"
-                  src="./assets/images/awards.png"
-                  alt="Card image cap"
-                  width="80px"
-                  height="80px"
-                  style="width: 30%; margin-left: 35%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title orange-title">
-                    FRAMEWORK CONVENTION ON CLIMATE CHALLENGE, 2015
-                  </h5>
-                  <p class="card-text">ICT SOLUTIONS.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item mt-3">
-              <div class="card" style="width: 18rem; height: 250px">
-                <img
-                  class="card-img-top mt-2"
-                  src="./assets/images/awards.png"
-                  alt="Card image cap"
-                  width="80px"
-                  height="80px"
-                  style="width: 30%; margin-left: 35%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title orange-title">SYGENTA, 2018</h5>
-                  <p class="card-text">CROP CHALLENGE IN ANALYTIC.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item mt-3">
-              <div class="card" style="width: 18rem; height: 250px">
-                <img
-                  class="card-img-top mt-2"
-                  src="./assets/images/awards.png"
-                  alt="Card image cap"
-                  width="80px"
-                  height="80px"
-                  style="width: 30%; margin-left: 35%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title orange-title">INFORMS, 2020</h5>
-                  <p class="card-text">
-                    INNOVATE APPLICATIONS IN ANALYTICS AWARDS COMPETITION.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- success cases content -->
-            <hr />
-          </div>
-        </div>
-      </div>
-      <div class="row-test">
-        <div class="awards-content">
-          <hr />
-          <div class="cases-content">
-            <ul class="categories mt-4">
-              <li id="success-c">Proyectos éxitosos</li>
-              <li id="partner" class="ml-4">Convenios</li>
-              <li id="award" class="ml-4">Premios</li>
-              <li id="publication" class="ml-4">Publicaciones</li>
-            </ul>
-            <div class="cases-items mt-4"></div>
-          </div>
-        </div>
-      </div>
+  <title>AEPS-OPEN</title>
+</head>
+
+<body>
+
+  <!--  Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="col col-sm-3">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo_ciat.png" alt=""
+          class="img-fluid" /></a>
     </div>
 
-    <div class="footer">
-      <div class="logo">
-        <img
-          src="./assets/images/alliance-logo-trans.png"
-          class="mt-3"
-          alt=""
-          width="250px"
-          height="150px"
-        />
-        <img
-          src="./assets/images/ccafs.png"
-          class="mt-4 ml-3"
-          alt=""
-          height="120px"
-        />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul id="nave" class="navbar-nav mr-3 ml-auto">
+        <li id="homes" class="nav-item ml-4">
+          <a class="nav-link" href="./index.html"></a>
+        </li>
+        <li id="tool" class="nav-item ml-4">
+          <a class="nav-link" href="./tools.html"></a>
+        </li>
+        <li id="service" class="nav-item ml-4">
+          <a class="nav-link" href="./services.html"></a>
+        </li>
+        <li id="success" class="nav-item ml-4">
+          <a class="nav-link" href="./success-cases.html"></a>
+        </li>
+        <!--
+          <li id="project" class="nav-item ml-4">
+          <a class="nav-link" href="#"></a>
+        </li>
+        -->
+        <li id="media" class="nav-item ml-4">
+          <a class="nav-link" href="./media.html"></a>
+        </li>
+        <li id="article" class="nav-item ml-4">
+          <a class="nav-link" href="./articles.html"></a>
+        </li>
+        <li class="nav-item dropdown ml-4">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src="./assets/images/lenguaje.png" alt="" width="20px" height="20px" />
+          </a>
+          <!-- Dropdown - Lenguage -->
+          <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            aria-labelledby="messagesDropdown">
+            <h6 id="header-language" class="dropdown-header">Language</h6>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('en')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/english.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="en" class="font-weight">
+                <div class="text-truncate">English.</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#!" onclick="setLanguage('es')">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="./assets/images/spanish.png" width="20px" height="20px" alt="..." />
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div id="es" class="font-weight">
+                <div class="text-truncate">Spanish.</div>
+              </div>
+            </a>
+          </div>
+          <!-- End_Dropdown - Lenguage -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--  End Navbar  -->
+
+  <!-- content -->
+  <div class="container-fluid" style="padding-top: 6.4em">
+
+    <!--   Intro   -->
+    <header class="intro">
+      <div class="container">
+        <div class="heading" id="title_1">Casos de Éxito</div>
       </div>
-      <div class="contact">
-        <div>
+    </header>
+
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0 py-4" id="title_2">Echa un vistazo a nuestros premios y experiencias de éxito</h2>
+      <hr class="divider" />
+      <p class="text-center mb-0 pt-4" id="description">Con más de 10 años de experiencia en agricultura digital el
+        equipo ha logrado destacar sus proyectos, ser reconocido por diversas entidades y ha generado un impacto en los
+        diferentes territorios donde a llevado a cabo su labor.
+      </p>
+    </div>
+
+    <!--   Premios   -->
+    <div class="row justify-content-md-center p-5" id="awards">
+
+    </div>
+    <!--  end premios  -->
+
+    <!--   Logros   -->
+
+    <div class="container-fluid pt-5 ">
+
+      <div class="row gx-4 gx-lg-5" id="cards">
+
+      </div>
+    </div>
+    <!--  end logros  -->
+
+  </div>
+
+  <!--  footer  -->
+  <footer class="footer py-4">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg d-flex justify-content-around flex-wrap">
+          <img src="./assets/images/alliance-logo.png" alt="" height="100px" />
+          <img src="./assets/images/ccafs.png" alt="" style="max-height: 80px;" class="img-fluid" />
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-flex justify-content-around flex-wrap text-center">
           <h4 id="footer-contact-title" class="mt-3">CONTACTO</h4>
-          <h5 id="footer-researcher">Daniel Jimenez, PhD. Científico</h5>
-          <a href="mailto:d.jimenez@cgiar.org"><h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5></a>
+          <h5 id="footer-researcher">
+            Daniel Jimenez, PhD Leader Community of Practice Data-Driven
+            Agronomy
+          </h5>
+          <a href="mailto:d.jimenez@cgiar.org">
+            <h5><i class="far fa-envelope mr-1"></i>d.jimenez@cgiar.org</h5>
+          </a>
         </div>
-        <!--  <div style="float: right;">
-                       
-                    </div> -->
-      </div>
-      <div class="qr ml-4">
-        <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
-        <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        <div
+          class="col-lg-2 text-lg-center d-flex justify-content-around flex-wrap flex-lg-column align-items-lg-center">
+          <h5 id="footer-qr-title" class="mt-3">Conoce más en:</h5>
+          <img src="./assets/images/qr.png" class="mt-2" alt="" height="80px" />
+        </div>
       </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var language;
-      function getLanguage() {
-          getItems(localStorage.getItem("language"));
-        localStorage.getItem("language") == null ? setLanguage("en") : false;
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script>
+    var language;
+    function getLanguage() {
+      localStorage.getItem("language") == null ? setLanguage("en") : false;
+      $.ajax({
+        url: "language/" + localStorage.getItem("language") + ".json",
+        dataType: "json",
+        async: true,
+        dataType: "json",
+        success: function (lang) {
+          language = lang;
+          getItems(localStorage.getItem("language"), lang);
+          /* Navbar */
+          document.getElementById("homes").innerHTML =
+            "<a class='nav-link' href='./index.html'>" +
+            language.index.navbar[0] +
+            "</a>";
+          document.getElementById("tool").innerHTML =
+            "<a class='nav-link' href='./tools.html'>" +
+            language.index.navbar[1] +
+            "</a>";
+          document.getElementById("service").innerHTML =
+            "<a class='nav-link' href='./services.html'>" +
+            language.index.navbar[2] +
+            "</a>";
+          document.getElementById("success").innerHTML =
+            "<a class='nav-link active' href='./success-cases.html'>" +
+            language.index.navbar[3] +
+            "</a>";
+          /*document.getElementById("project").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[4] +
+            "</a>";*/
+          document.getElementById("media").innerHTML =
+            "<a class='nav-link' href='./media.html'>" +
+            language.index.navbar[5] +
+            "</a>";
+          document.getElementById("article").innerHTML =
+            "<a class='nav-link' href='./articles.html'>" +
+            language.index.navbar[6] +
+            "</a>";
+          document.getElementById("header-language").innerHTML =
+            language.index.navbar[7];
+          document.getElementById("en").className = "font-weight";
+          document.getElementById("es").className = "font-weight";
+          document.getElementById(
+            localStorage.getItem("language")
+          ).className = "font-weight-bold";
+
+          /*  intro  */
+          document.getElementById("title_1").innerHTML =
+            language.success_cases.title_1;
+          document.getElementById("title_2").innerHTML =
+            language.success_cases.title_2;
+          document.getElementById("description").innerHTML =
+            language.success_cases.description;
+
+          /* Tools description */
+
+
+
+          /* Footer */
+          document.getElementById("footer-contact-title").innerHTML =
+            language.index.footer.contact_title;
+          document.getElementById("footer-researcher").innerHTML =
+            language.index.footer.researcher;
+          document.getElementById("footer-qr-title").innerHTML =
+            language.index.footer.qr_title;
+        },
+      });
+    }
+
+    function getItems(lan, lang) {
+      $(document).ready(function () {
         $.ajax({
-          url: "language/" + localStorage.getItem("language") + ".json",
-          dataType: "json",
-          async: true,
-          dataType: "json",
-          success: function (lang) {
-            language = lang;
-            /* Navbar */
-            document.getElementById("homes").innerHTML =
-              "<li id='homes' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./index.html'>" +
-              language.index.navbar[0] +
-              "</a></li>";
-            document.getElementById("tool").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./tools.html'>" +
-              language.index.navbar[1] +
-              "</a></li>";
-            document.getElementById("service").innerHTML =
-              "<li id='service' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./services.html'>" +
-              language.index.navbar[2] +
-              "</a></li>";
-            document.getElementById("success").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link active' href='./success-cases.html'>" +
-              language.index.navbar[3] +
-              "</a></li>";
-            document.getElementById("media").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./media.html'>" +
-              language.index.navbar[4] +
-              "</a></li>";
-            document.getElementById("article").innerHTML =
-              "<li id='tool' class='nav-item ml-3'>" +
-              "<a class='nav-link' href='./articles.html'>" +
-              language.index.navbar[5] +
-              "</a></li>";
-            /* Tools description */
-            document.getElementById("cases-title").innerHTML =
-              language.success_cases.title;
-            document.getElementById("cases-description").innerHTML =
-              language.success_cases.description;
-            document.getElementById("awards-title").innerHTML =
-              language.success_cases.awards_title;
-            document.getElementById("success-c").innerHTML =
-              language.success_cases.category[0];
-            document.getElementById("partner").innerHTML =
-              language.success_cases.category[1];
-            document.getElementById("award").innerHTML =
-              language.success_cases.category[2];
-            document.getElementById("publication").innerHTML =
-              language.success_cases.category[3];
-            /* Footer */
-            document.getElementById("footer-contact-title").innerHTML =
-              language.index.footer.contact_title;
-            document.getElementById("footer-researcher").innerHTML =
-              language.index.footer.researcher;
-            document.getElementById("footer-qr-title").innerHTML =
-              language.index.footer.qr_title;
+          type: "GET",
+          url: "db/success_2.csv",
+          dataType: "text",
+          success: function (data) {
+            success = processData(data)
+            $("#awards").html("");
+            $("#cards").html("");
+            $(success.reverse()).each(function (i, e) {
+              if (e.title_awards_en) {
+                $("#awards").append(
+                  `<div class="row row-cols-md-2 justify-md-content-center py-2 w-100">
+                    <div class="col-sm-12 col-lg-3 d-flex align-items-center">
+                      <img src="./assets/images/premio_${e['awards']}.png" alt="" class="img-fluid pb-2" />
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center">
+                      <h3 class="title_award">${e['title_awards_' + lan]}</h3>
+                      <p  class="text-justify">${e['description_awards_' + lan]}</p>
+                    </div>
+                  </div>`
+                )
+              }
+              $("#cards").append(
+                `<div class="col-md-4 mb-5">
+                  <div class="card h-100">
+                    <h4 class="card-header text-center">
+                      ${e['fecha']}</h4>
+                    <div class="card-body">
+                        <h4 class="card-title">${e['title_' + lan]}</h4>
+                        <img src="./assets/images/logro_${e['#']}.png" alt="" class="img-fluid"/>
+                      
+                      <p class="card-text">${e['description_' + lan]}</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center border-0 bg-transparent">
+                      <a id="button-lever-${i}" class="btn btn-dark btn-sm" href="${e['link']}" target="_blank">
+                        ${lang.index.lever.button}</a></div>
+                  </div>`
+              );
+            });
           },
         });
-      }
-
-      function getItems(lan) {
-        $(document).ready(function () {
-          $.ajax({
-            type: "GET",
-            url: "db/casos.csv",
-            dataType: "text",
-            success: function (data) {
-              cases = processData(data);
-              $(".cases-items").html("");
-              console.log(cases);
-              if (lan == "es") {
-                $(cases).each(function (i, e) {
-                  $(".cases-items").append(
-                    '<div class="item ml-1">' +
-                      '<a href="' +
-                      cases[i].link +
-                      '" class="url" target="_blank">' +
-                      '<div class="card text-white mb-3" style="max-width: 23rem; height: 500px; background-color:' +
-                      cases[i].color +
-                      ';">' +
-                      '<div class="card-header">' +
-                      "<h1>" +
-                      cases[i].fecha +
-                      "</h1>" +
-                      "</div>" +
-                      '<div class="card-body">' +
-                      '<h5 class="card-title">' +
-                      cases[i].title_es +
-                      "</h5>" +
-                      '<p class="card-text">' +
-                      cases[i].description_es +
-                      "</p>" +
-                      "</div> </div> </a> </div>"
-                  );
-                });
-              }
-              if (lan == "en") {
-                $(cases).each(function (i, e) {
-                  $(".cases-items").append(
-                    '<div class="item ml-1">' +
-                      '<a href="' +
-                      cases[i].link +
-                      '" class="url" target="_blank">' +
-                      '<div class="card text-white mb-3" style="max-width: 23rem; height: 460px; background-color:' +
-                      cases[i].color +
-                      ';">' +
-                      '<div class="card-header">' +
-                      "<h1>" +
-                      cases[i].fecha +
-                      "</h1>" +
-                      "</div>" +
-                      '<div class="card-body">' +
-                      '<h5 class="card-title">' +
-                      cases[i].title_en +
-                      "</h5>" +
-                      '<p class="card-text">' +
-                      cases[i].description_en +
-                      "</p>" +
-                      "</div> </div> </a> </div>"
-                  );
-                });
-              }
-            },
-          });
-        });
-      }
-
-      function processData(allText) {
-        var allTextLines = allText.split(/\r\n|\n/);
-        var entries = allTextLines[0].split(";");
-        var lines = [];
-        var record_num = 8; // or however many elements there are in each row
-
-        var headings = entries.splice(0, 8);
-        var tarr = [];
-
-        for (let i = 1; i < allTextLines.length; i++) {
-          var obj = {};
-          var currentline = allTextLines[i].split(";");
-          for (var j = 0; j < headings.length; j++) {
-            obj[headings[j]] = currentline[j];
-          }
-          lines.push(obj);
-        }
-        return lines;
-      }
-      // alert(lines);
-
-      function setLanguage(lang) {
-        localStorage.setItem("language", lang);
-        getLanguage();
-      }
-    </script>
-    <script>
-      $(document).ready(function () {
-        getLanguage();
       });
-    </script>
-  </body>
+    }
+
+    function processData(allText) {
+      var allTextLines = allText.split(/\r\n|\n/);
+      var headings = allTextLines[0].split(";");
+      var lines = [];
+
+      for (let i = 1; i < allTextLines.length; i++) {
+        var obj = {};
+        var currentline = allTextLines[i].split(";");
+        for (var j = 0; j < headings.length; j++) {
+          obj[headings[j]] = currentline[j];
+        }
+        lines.push(obj);
+      }
+      console.log("lienas", lines)
+      return lines;
+    }
+    // alert(lines);
+
+    function setLanguage(lang) {
+      localStorage.setItem("language", lang);
+      getLanguage();
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      getLanguage();
+    });
+  </script>
+</body>
+
 </html>
