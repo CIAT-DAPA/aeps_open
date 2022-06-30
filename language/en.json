@@ -58,12 +58,13 @@
   },
   "success_cases": {
     "title_1": "Success Cases",
-    "title_2": "INTERNATIONAL AWARDS",
+    "title_2": "Take a look at our awards and success stories",
     "description": "With more than 10 years of experience in digital agriculture, the team has managed to highlight its projects, be recognized by various entities and has generated an impact in the different territories where it has carried out its work.",
     "category": ["Successful projects", "Conventions", "Awards", "Publications"]
   },
   "media": {
-    "title": "MEDIA CONTENT",
+    "title_1": "Media Content",
+    "title_2": "Watch the videos related to our activities",
     "description": "Then you will be able to see the webinars, videos, documentaries and other multimedia elements that the team has left on its journey."
   },
   "article": {
