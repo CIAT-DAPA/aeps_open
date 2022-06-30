@@ -52,7 +52,8 @@
     "category": ["Proyectos éxitosos", "Convenios", "Premios", "Publicaciones"]
   },
   "media" : {
-    "title": "CONTENIDO MULTIMEDIA",
+    "title_1": "Contenido multimedia",
+    "title_2": "Mira los videos relacionados con nuestras actividades",
     "description": "A continuación podrá ver los webinars, videos, documentales y demas elementos multimedia que ha ido dejando el equipo en su recorrido."
   },
   "article": {
