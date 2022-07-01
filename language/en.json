@@ -68,7 +68,8 @@
     "description": "Then you will be able to see the webinars, videos, documentaries and other multimedia elements that the team has left on its journey."
   },
   "article": {
-    "title": "ARTICLES",
-    "description": "The team's work in the development of research published in various scientific journals has been important and enriching. Here below you will find the publications made."
+    "title_1": "Our contribution to agriculture with science",
+    "title_2": "below you will find the publications we have made",
+    "description": "The team's work in the development of research published in various scientific journals has been significant and enriching."
   }
 }

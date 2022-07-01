@@ -57,7 +57,8 @@
     "description": "A continuación podrá ver los webinars, videos, documentales y demas elementos multimedia que ha ido dejando el equipo en su recorrido."
   },
   "article": {
-    "title": "ARTÍCULOS",
-    "description": "Ha sido importante y enriquecedor el trabajo del equipo en el desarrollo de investiagciones publicadas en diversas revistas cientificas. Aqui abajo encontrará las publicaciones relizadas."
+    "title_1": "Nuestro aporte a la agricultura con la ciencia",
+    "title_2": "Aquí abajo encontrarás las publicaciones realizadas",
+    "description": "Ha sido significativo y enriquecedor el trabajo del equipo en el desarrollo de investiagciones publicadas en diversas revistas cientificas."
   }
 }
