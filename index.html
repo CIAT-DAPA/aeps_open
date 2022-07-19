@@ -127,6 +127,7 @@
   <div class="container-fluid red">
     <!--  Seccion intro-->
     <div class="container px-4 px-lg-5">
+      <h1 class="text-center mt-0 py-4" id="title">Transformación digital en sistemas agroalimentarios</h1>
       <h2 class="text-center mt-0 py-4" id="heading_1">¿Cómo venimos trabajando?</h2>
       <p class="text-center mb-0 py-4" id="content_1">
         El equipo de la Alianza Bioversity - CIAT ha desarrollado una serie de
@@ -457,6 +458,8 @@
             $(tools).each(function (i, e) {
 
               /*  Intro  */
+              if (i == 0) 
+                document.getElementById(`title`).innerHTML = e[`title_${lan}`];
               if (i < 3) {
                 document.getElementById(`heading_${i + 1}`).innerHTML =
                   e[`heading_${lan}`];
