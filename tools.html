@@ -231,7 +231,7 @@
           success: function (data) {
             tools = processData(data)
             $("#cards").html("");
-            $(tools).each(function (i, e) {
+            $(tools.reverse()).each(function (i, e) {
               if (e.text_es) {
                 $("#cards").append(
                   `<div class="col-md-4 mb-5">
@@ -241,12 +241,12 @@
                       <div class="card-body">
                         <div class="row row-cols-2 flex-nowrap py-2 align-items-center justify-content-around">
                           <h4 class="card-title">${e[`description_${lan}`]}</h4>
-                          <img src="./assets/images/tool_${i}.png" style="max-width: 100px; max-height: 130px;" alt="" class="img-fluid"/>
+                          <img src="./assets/images/tool_${e["#"]}.png" style="max-width: 115px; max-height: 130px;" alt="" class="img-fluid"/>
                         </div>
                         <p class="card-text">${e[`text_${lan}`]}</p>
                       </div>
                       <div class="card-footer d-flex justify-content-center border-0 bg-transparent">
-                        <a id="button-lever-${i}" class="btn btn-dark btn-sm" href="${e["repository_link"]}" target="_blank">
+                        <a id="button-lever-${i}" class="btn btn-dark btn-sm" href="${e["link_es"] && lan == "es"? e["link_es"] : e["repository_link"]}" target="_blank">
                           ${lang.index.lever.button}</a></div>
                     </div>`
                 );
