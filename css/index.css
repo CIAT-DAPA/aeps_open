@@ -13,6 +13,18 @@
   background-size: cover;
 }
 
+.logo-aeps {
+  width: 2.3em;
+  transition: 0.3s;
+  transition-timing-function: ease;
+}
+
+.logo-aeps-p {
+  width: 1.3em;
+  transition: 0.3s;
+  transition-timing-function: ease;
+}
+
 #title{
   color: #ed8e36 !important;
   font-size: 2.7em;
