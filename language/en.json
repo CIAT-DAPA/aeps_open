@@ -2,7 +2,7 @@
   "index": {
     "navbar": [
       "Home",
-      "Tools",
+      "Resources",
       "Services",
       "Achievements",
       "Projects",
@@ -41,9 +41,9 @@
     }
   },
   "tool": {
-    "title_1": "Digital tools designed for sustainable agriculture",
+    "title_1": "Digital resources and tools designed for sustainable agriculture",
     "title_2": "Look up to each of our open-access tools:",
-    "description": "We encourage the digital technologies transformation and their inclusion in the agri-food system by using tools developed by the team."
+    "description": "We encourage the digital technologies transformation and their inclusion in the agri-food system by using tools adn resources developed by the team."
   },
   "service": {
     "title_1": "Our services",

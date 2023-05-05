@@ -2,7 +2,7 @@
   "index": {
     "navbar": [
       "Inicio",
-      "Herramientas",
+      "Recursos",
       "Servicios",
       "Logros",
       "Proyectos",
@@ -30,9 +30,9 @@
     }
   },
   "tool": {
-    "title_1": "Herramientas digitales diseñadas para la agricultura sostenible",
+    "title_1": "Recursos y herramientas digitales diseñadas para la agricultura sostenible",
     "title_2": "Accede a nuestro portal de acceso abierto para revisar cada una:",
-    "description": "Fomentamos la tranformación e inclusión de las teconolgias digitales en el sistema agroalimentario haciendo uso de las herramientas desarrolladas por el equipo."
+    "description": "Fomentamos la tranformación e inclusión de las teconolgias digitales en el sistema agroalimentario haciendo uso de las herramientas y recursos desarrolladas por el equipo."
   },
   "service": {
     "title_1": "Nuestros servicios",
